@@ -1,32 +1,35 @@
 ---
 title: "Produkte"
-description: "Ein kompakter Überblick über wiederkehrende Produktbereiche und seriennahe Lösungen von KLT Technik."
+description: "Ein Überblick über Küchenlüftungsdecken, Hauben, Luftführung und ergänzende Systembausteine für den wirtschaftlichen Betrieb von Großküchen."
 products:
-  - category: "Sonderteile"
-    name: "Baugruppen und passgenaue Einzelteile"
-    description: "Komponenten für Anlagen, Vorrichtungen und technische Nachrüstungen, abgestimmt auf vorhandene Schnittstellen und den späteren Einsatz."
+  - category: "Lüftungsdecken"
+    name: "Küchenlüftungsdecken mit effizienter Erfassung"
+    description: "Deckenlösungen für Großküchen mit zugfreiem Zuluftsystem, ästhetischer Integration und hochwirksamer Erfassung der Kochwolke."
     image: "images/carousel-produkte.svg"
-    imageAlt: "Illustration zu passgenauen Sonderteilen und Baugruppen"
+    imageAlt: "Illustration einer Küchenlüftungsdecke für Großküchen"
     applications:
-      - Maschinen- und Anlagenbau
-      - Betriebsmittel und Vorrichtungen
-      - Nachrüstungen im Bestand
-  - category: "Stahlbau"
-    name: "Rahmen, Podeste und Tragsysteme"
-    description: "Robuste Stahlbauprodukte für Wartungszugänge, Plattformen und technische Einhausungen mit Fokus auf Montagefreundlichkeit."
+      - Produktions- und Spülküchen
+      - Neubau und Nachrüstung
+      - Bereiche mit hohen Anforderungen an Luftqualität
+  - category: "Hauben"
+    name: "Stützstrahl- und Kondensationshauben"
+    description: "Hauben für Koch- und Spülbereiche mit effizienter Erfassung, hochwirksamen Fettabscheidern und Lösungen für Wasserdampfabscheidung bei Spülmaschinen."
     image: "images/carousel-stahlbau.svg"
-    imageAlt: "Illustration eines Stahlbauprodukts mit Tragsystem"
+    imageAlt: "Illustration einer Küchenlüftungshaube mit Luftführung"
     applications:
-      - Plattformen und Bedienpodeste
-      - Schutz- und Tragkonstruktionen
-      - Erweiterungen im Produktionsumfeld
-  - category: "Montage"
-    name: "Hilfskonstruktionen für Service und Betrieb"
-    description: "Lösungen für sichere Abläufe in Wartung, Montage und wiederkehrenden Serviceeinsätzen."
+      - Kochlinien und Front-Cooking
+      - Geschirrspülmaschinen und Bandspülen
+      - Bereiche mit niedrigen Betriebskosten als Ziel
+  - category: "Systemtechnik"
+    name: "Spülautomatik, Luftführung und Service"
+    description: "Ergänzende Komponenten wie Quellluftauslässe, Warmwasserspülanlagen, Direktanschlüsse, UVC-Unterstützung sowie Zubehör und Wartungsservice."
     image: "images/carousel-service.svg"
-    imageAlt: "Illustration zu Hilfskonstruktionen für Montage und Service"
+    imageAlt: "Illustration zu Service und ergänzender Systemtechnik für Küchenlüftung"
     applications:
-      - Wartung und Instandhaltung
-      - Seriennahe Servicehilfen
-      - Temporäre oder mobile Einsätze
+      - Bedarfsgerechte Luftführung
+      - Reduzierte Reinigungs- und Servicekosten
+      - Laufender Betrieb und Instandhaltung
 ---
+KLT Technik konzentriert sich auf Küchenlüftungstechnik, bei der Luftführung, Energieeinsatz und Wartungsaufwand zusammen gedacht werden. Die Produktwelt reicht von Küchenlüftungsdecken und Stützstrahlhauben bis zu Kondensationslösungen für Spülbereiche und ergänzender Systemtechnik.
+
+Im Vordergrund stehen zugfreie Zuluft, eine wirksame Erfassung von Koch- und Dampffrachten, hochwertige Fettabscheider sowie Komponenten für wirtschaftliche Reinigung und verlässlichen Dauerbetrieb. Ergänzend dazu entstehen Auslegungen für Luftmengen, Einbausituationen und spätere Serviceanforderungen bereits in der Planungsphase.

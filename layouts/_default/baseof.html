@@ -16,5 +16,53 @@
       </main>
       {{ partial "site-footer.html" . }}
     </div>
+    <script>
+      (() => {
+        const navLinks = Array.from(document.querySelectorAll("[data-nav-link]"));
+
+        if (navLinks.length === 0) {
+          return;
+        }
+
+        const activeClasses = ["bg-[#43A62A]", "text-white"];
+        const inactiveClasses = ["text-black/70", "hover:bg-black/[0.04]", "hover:text-black"];
+
+        const normalizePath = (pathname) => {
+          if (!pathname || pathname === "") {
+            return "/";
+          }
+
+          return pathname.endsWith("/") ? pathname : `${pathname}/`;
+        };
+
+        const syncNavState = () => {
+          const currentPath = normalizePath(window.location.pathname);
+          const currentHash = window.location.hash;
+
+          navLinks.forEach((link) => {
+            const linkUrl = new URL(link.getAttribute("href"), window.location.origin);
+            const linkPath = normalizePath(linkUrl.pathname);
+            const linkHash = linkUrl.hash;
+
+            const isActive = linkHash
+              ? currentPath === linkPath && currentHash === linkHash
+              : currentPath === linkPath && (linkPath !== "/" || currentHash === "");
+
+            link.classList.toggle(activeClasses[0], isActive);
+            link.classList.toggle(activeClasses[1], isActive);
+            inactiveClasses.forEach((className) => link.classList.toggle(className, !isActive));
+
+            if (isActive) {
+              link.setAttribute("aria-current", linkHash ? "location" : "page");
+            } else {
+              link.removeAttribute("aria-current");
+            }
+          });
+        };
+
+        syncNavState();
+        window.addEventListener("hashchange", syncNavState);
+      })();
+    </script>
   </body>
 </html>

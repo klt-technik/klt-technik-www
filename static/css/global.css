@@ -43,6 +43,7 @@ h4 {
 .carousel-shell {
   --carousel-gap: 1.5rem;
   --carousel-slide-size: clamp(18rem, 32vw, 27rem);
+  --carousel-item-count: 5;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -82,7 +83,7 @@ h4 {
   flex: 0 0 var(--carousel-slide-size);
   aspect-ratio: 4 / 3;
   margin: 0;
-  padding: 1rem;
+  padding: 0;
   box-shadow: none;
   background:
     linear-gradient(135deg, rgba(67, 166, 42, 0.04), rgba(42, 67, 166, 0.06)),
@@ -153,7 +154,7 @@ h4 {
   }
 
   to {
-    transform: translateX(calc((var(--carousel-slide-size) * -5) - (var(--carousel-gap) * 5)));
+    transform: translateX(calc((var(--carousel-slide-size) * var(--carousel-item-count) * -1) - (var(--carousel-gap) * var(--carousel-item-count))));
   }
 }
 

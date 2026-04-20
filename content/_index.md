@@ -1,24 +1,23 @@
 ---
 title: "Start"
-description: "KLT Technik begleitet technische Vorhaben von der ersten Idee bis zur fertig umgesetzten Lösung."
+description: "KLT Technik plant und realisiert energiesparende Küchenlüftungstechnik für Großküchen mit klarem Fokus auf Funktion, Luftqualität und wirtschaftlichen Betrieb."
 hero:
-  eyebrow: "KLT Technik"
-  title: "Technische Lösungen mit klarer Umsetzung"
-  text: "Wir entwickeln, koordinieren und realisieren Projekte, Sonderkonstruktionen und Produkte für industrielle Anwendungen."
+  title: "Energiesparende Küchenlüftungstechnik mit klarer Umsetzung"
+  text: "Wir entwickeln Gesamtkonzepte für Großküchen-Belüftungssysteme, berechnen Luftmengen nach ÖNORM H6030 und begleiten Projekte bis zur fertigen Inbetriebnahme."
 services:
-  - title: "Projektabwicklung"
-    text: "Von der Anforderungsklärung bis zur Inbetriebnahme begleitet KLT Technik alle Phasen mit einem klaren technischen Fokus."
-  - title: "Sonderkonstruktionen"
-    text: "Wir planen und fertigen Bauteile, Baugruppen und Tragsysteme für individuelle Einsatzfälle."
-  - title: "Produkte"
-    text: "Aus wiederkehrenden Anforderungen entstehen robuste Produkte für den laufenden Einsatz in Betrieb und Montage."
+  - title: "Gesamtkonzeption"
+    text: "Von der ersten Aufgabenstellung bis zur abgestimmten Ausführung entsteht ein Küchenlüftungssystem, das Technik, Betrieb und Einbausituation zusammenführt."
+  - title: "Luftmengenberechnung"
+    text: "Die Auslegung der Luftmengen erfolgt nach ÖNORM H6030 mit Fokus auf energie- und luftmengensparende Lösungen für wirtschaftlichen Dauerbetrieb."
+  - title: "Einreichung und Umsetzung"
+    text: "KLT Technik unterstützt bei Genehmigungs- und Einreichverfahren und sorgt für einen reibungslosen Ablauf von Fertigung, Montage und Inbetriebnahme."
 focus:
-  - title: "Planung"
-    text: "Strukturierte Vorbereitung schafft belastbare Entscheidungen für Konstruktion, Fertigung und Montage."
-  - title: "Fertigung"
-    text: "Praxisnahe Lösungen werden mit Blick auf Material, Toleranzen und spätere Wartung umgesetzt."
-  - title: "Montage"
-    text: "Vor Ort zählt ein Ablauf, der Termine hält, Schnittstellen reduziert und schnell in Betrieb geht."
+  - title: "Raumklima"
+    text: "Ein sauberes, zugfreies Arbeitsklima verbessert die Bedingungen in der Großküche und unterstützt einen wirtschaftlichen Betrieb."
+  - title: "Umweltstandards"
+    text: "Zum Einsatz kommen hochwertige Komponenten und Konzepte, die auf effiziente energetische Nutzung und langlebige Funktion ausgelegt sind."
+  - title: "Projektablauf"
+    text: "Langjährige Erfahrung in Küchenlüftungstechnik, Fertigung und Kundenbetreuung schafft verlässliche Abläufe bis zur fertigen Anlage."
 team:
   - title: "Teammitglied 01"
     role: "Geschäftsführung"
@@ -45,7 +44,7 @@ team:
     role: "Administration"
     text: "Unterstützt Organisation, Dokumentation und die interne Koordination von Angeboten und Projekten."
 contact:
-  text: "Für Anfragen zu Projekten, Produkten und individuellen Lösungen steht KLT Technik gerne zur Verfügung."
+  text: "Für Anfragen zu Großküchenlüftung, Produkten und individuellen Anlagenkonzepten steht KLT Technik gerne zur Verfügung."
   company: "KLT Technik GmbH"
   address: "Kinskygasse 36-38, 1230 Wien"
   mapLabel: "Standort von KLT Technik GmbH in Wien"
@@ -53,6 +52,6 @@ contact:
   phoneHref: "tel:+4319139923"
   email: "office@klt-technik.com"
 ---
-KLT Technik verbindet technische Planung mit einer Umsetzung, die für reale Betriebsabläufe ausgelegt ist. Im Mittelpunkt stehen Lösungen, die sich in Produktion, Instandhaltung und laufendem Betrieb sauber integrieren lassen.
+Die Qualität des Raumklimas beeinflusst in jeder Großküche Arbeitskomfort, Energieverbrauch und Wirtschaftlichkeit. KLT Technik entwickelt deshalb Küchenlüftungssysteme, die Luftmengen gezielt reduzieren, Kochdünste sauber erfassen und sich verlässlich in den laufenden Betrieb integrieren lassen.
 
-Das Unternehmen arbeitet projektbezogen, produktionsnah und mit einem klaren Blick auf Funktion, Zugänglichkeit und Langlebigkeit. Daraus entsteht eine Website-Struktur, die Referenzen, Produkte und die Unternehmensdarstellung konsistent abbildet.
+Im Mittelpunkt stehen hochwertige Lüftungskomponenten, moderne Fertigung und eine Auslegung, die Umweltstandards, Energieeffizienz und praktikable Montage zusammenbringt. Von der Konzeption über die Berechnung bis zur Umsetzung entsteht so eine Anlage, die technisch belastbar und im Alltag dauerhaft nutzbar ist.

@@ -1,10 +1,8 @@
 {{ define "main" }}
   {{ $carouselImages := slice
-    (dict "src" "images/carousel-planung.svg" "alt" "Technische Planung und Konstruktion")
-    (dict "src" "images/carousel-stahlbau.svg" "alt" "Stahlbau und Tragsysteme")
-    (dict "src" "images/carousel-montage.svg" "alt" "Montage und Inbetriebnahme")
-    (dict "src" "images/carousel-service.svg" "alt" "Wartung und Servicezugänge")
-    (dict "src" "images/carousel-produkte.svg" "alt" "Produkte und Baugruppen")
+    (dict "src" "images/projects/meduni-campus-graz-kueche.webp" "alt" "Großküche an der Med Uni Graz mit installierter Lüftungstechnik")
+    (dict "src" "images/projects/meduni-campus-graz-kueche-2.jpg" "alt" "Großküche mit Edelstahl-Lüftungstechnik am Med Uni Campus Graz")
+    (dict "src" "images/projects/meduni-campus-graz-kueche-3.jpg" "alt" "Offener Küchenbereich am Med Uni Campus Graz mit Deckenlüftung")
   }}
 
   <section class="mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-24">
@@ -18,15 +16,28 @@
     </div>
   </section>
 
+  {{ with .Params.services }}
+    <section class="mx-auto max-w-7xl px-6 py-2 md:px-10 md:py-4">
+      <div class="grid gap-6 md:grid-cols-3">
+        {{ range . }}
+          <article class="surface-card p-6">
+            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#A62A43]">{{ .title }}</p>
+            <p class="mt-4 text-sm leading-7 text-black/70">{{ .text }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
   <section class="mx-auto max-w-7xl px-6 py-10 md:px-10 md:py-14">
-    <div class="carousel-shell">
+    <div class="carousel-shell" style="--carousel-item-count: {{ len $carouselImages }};">
       <div class="carousel-track">
         {{ range $pass := seq 2 }}
           {{ $isDuplicate := gt $pass 1 }}
           {{ range $carouselImages }}
             <figure class="carousel-slide surface-card overflow-hidden"{{ if $isDuplicate }} aria-hidden="true"{{ end }}>
               <img
-                class="h-full w-full object-contain"
+                class="carousel-slide-image h-full w-full object-cover"
                 src="{{ .src | relURL }}"
                 alt="{{ if $isDuplicate }}{{ else }}{{ .alt }}{{ end }}"
                 loading="eager"
@@ -39,7 +50,7 @@
     </div>
   </section>
 
-  <section class="mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-16">
+  <section id="about" class="mx-auto max-w-7xl scroll-mt-28 px-6 py-12 md:px-10 md:py-16">
     <div class="max-w-2xl">
       <h2 class="text-3xl font-semibold tracking-tight text-black md:text-4xl">Über uns</h2>
     </div>
@@ -63,7 +74,7 @@
   </section>
 
   {{ with .Params.team }}
-    <section class="mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-16">
+    <section id="team" class="mx-auto max-w-7xl scroll-mt-28 px-6 py-12 md:px-10 md:py-16">
       <div class="max-w-2xl">
         <h2 class="text-3xl font-semibold tracking-tight text-black md:text-4xl">Team</h2>
         <p class="mt-4 text-lg text-black/70">Unser Team verbindet Planung, Konstruktion und Umsetzung in einem durchgängigen technischen Ablauf.</p>
@@ -82,7 +93,7 @@
   {{ end }}
 
   {{ with .Params.contact }}
-    <section class="mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-16">
+    <section id="contact" class="mx-auto max-w-7xl scroll-mt-28 px-6 py-12 md:px-10 md:py-16">
       {{ $contact := . }}
       {{ $mapURL := printf "https://www.google.com/maps?q=%s&output=embed" (.address | urlquery) }}
       <div class="max-w-2xl">

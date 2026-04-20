@@ -1,8 +1,8 @@
 <a class="surface-card group flex h-full flex-col overflow-hidden p-6 transition duration-300 hover:-translate-y-1 hover:border-[#43A62A]" href="{{ .RelPermalink }}">
   {{ with .Params.image }}
-    <div class="-mx-6 -mt-6 mb-6 border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(42,67,166,0.06))] px-5 py-5">
+    <div class="-mx-6 -mt-6 mb-6 aspect-[4/3] overflow-hidden border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(42,67,166,0.06))]">
       <img
-        class="h-56 w-full object-contain"
+        class="h-full w-full object-cover"
         src="{{ . | relURL }}"
         alt="{{ $.Params.imageAlt | default $.Title }}"
         loading="lazy"
