@@ -1,0 +1,24 @@
+baseURL = "https://www.klt-technik.at/"
+languageCode = "de-AT"
+title = "KLT Technik"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+description = "KLT Technik realisiert technische Projekte, Sonderkonstruktionen und ausgewaehlte Produkte fuer industrielle Anwendungen."
+companyName = "KLT Technik"
+logo = "images/logo-klt-technik.svg"
+
+[[menus.main]]
+name = "Start"
+pageRef = "/"
+weight = 10
+
+[[menus.main]]
+name = "Projekte"
+pageRef = "/projects"
+weight = 20
+
+[[menus.main]]
+name = "Produkte"
+pageRef = "/products"
+weight = 30

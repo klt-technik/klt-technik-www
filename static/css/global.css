@@ -1,0 +1,92 @@
+:root {
+  --page-bg: #0c0a09;
+  --surface-bg: rgba(28, 25, 23, 0.78);
+  --surface-border: rgba(255, 255, 255, 0.08);
+  --surface-shadow: 0 22px 60px rgba(0, 0, 0, 0.32);
+  --accent: #fbbf24;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(251, 191, 36, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.14), transparent 24%),
+    var(--page-bg);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Newsreader", serif;
+}
+
+.site-shell {
+  position: relative;
+}
+
+.surface-card {
+  border: 1px solid var(--surface-border);
+  background: var(--surface-bg);
+  box-shadow: var(--surface-shadow);
+  backdrop-filter: blur(18px);
+  border-radius: 1.75rem;
+}
+
+.eyebrow {
+  color: rgba(252, 211, 77, 0.9);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+
+.rich-text {
+  color: rgb(214 211 209);
+  line-height: 1.85;
+}
+
+.rich-text p + p,
+.rich-text ul + p,
+.rich-text h2 + p,
+.rich-text h3 + p,
+.rich-text p + h2,
+.rich-text p + h3,
+.rich-text ul + h2,
+.rich-text ul + h3 {
+  margin-top: 1.25rem;
+}
+
+.rich-text h2,
+.rich-text h3 {
+  color: #fff;
+  margin-top: 2rem;
+  line-height: 1.2;
+}
+
+.rich-text h2 {
+  font-size: clamp(1.75rem, 2vw, 2.25rem);
+}
+
+.rich-text h3 {
+  font-size: 1.4rem;
+}
+
+.rich-text ul {
+  list-style: disc;
+  margin-left: 1.25rem;
+}
+
+.rich-text strong {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .surface-card {
+    border-radius: 1.4rem;
+  }
+}

@@ -1,0 +1,19 @@
+<article class="surface-card group flex h-full flex-col p-6 transition duration-300 hover:-translate-y-1 hover:border-amber-300/40">
+  <div class="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.28em] text-stone-400">
+    <span>{{ .Params.sector | default "Projekt" }}</span>
+    {{ with .Params.year }}<span>{{ . }}</span>{{ end }}
+  </div>
+
+  <h3 class="mt-5 text-2xl font-semibold text-white">
+    <a class="transition group-hover:text-amber-200" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h3>
+
+  {{ with .Params.summary }}
+    <p class="mt-4 flex-1 text-sm leading-7 text-stone-300">{{ . }}</p>
+  {{ end }}
+
+  <div class="mt-6 flex items-center justify-between border-t border-white/10 pt-5 text-sm text-stone-300">
+    <span>{{ .Params.location }}</span>
+    <a class="font-semibold text-amber-300 transition hover:text-amber-200" href="{{ .RelPermalink }}">Details</a>
+  </div>
+</article>

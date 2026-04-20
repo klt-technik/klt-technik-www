@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <section class="mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-20">
+    <div class="grid gap-10 xl:grid-cols-[minmax(0,1fr)_360px]">
+      <div class="max-w-4xl">
+        <p class="eyebrow">{{ .Params.sector | default "Projekt" }}</p>
+        <h1 class="mt-4 text-4xl font-semibold tracking-tight text-white md:text-6xl">{{ .Title }}</h1>
+        {{ with .Params.summary }}
+          <p class="mt-6 max-w-3xl text-lg leading-8 text-stone-300 md:text-xl">{{ . }}</p>
+        {{ end }}
+      </div>
+
+      <aside class="surface-card h-fit p-6">
+        <p class="text-xs font-semibold uppercase tracking-[0.28em] text-stone-400">Projektdaten</p>
+        <div class="mt-6 space-y-5">
+          {{ range .Params.facts }}
+            <div class="border-b border-white/10 pb-4 last:border-b-0 last:pb-0">
+              <p class="text-sm text-stone-400">{{ .label }}</p>
+              <p class="mt-2 text-base font-semibold text-white">{{ .value }}</p>
+            </div>
+          {{ end }}
+        </div>
+      </aside>
+    </div>
+
+    <div class="mt-12 grid gap-10 xl:grid-cols-[minmax(0,1fr)_360px]">
+      <div class="surface-card p-8 md:p-10">
+        <div class="rich-text">
+          {{ .Content }}
+        </div>
+      </div>
+
+      <div class="grid gap-6">
+        {{ with .Params.services }}
+          <section class="surface-card p-6">
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-stone-400">Leistungen</p>
+            <ul class="mt-5 space-y-3 text-sm leading-7 text-stone-300">
+              {{ range . }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </section>
+        {{ end }}
+
+        {{ with .Params.deliverables }}
+          <section class="surface-card p-6">
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-stone-400">Projektumfang</p>
+            <ul class="mt-5 space-y-3 text-sm leading-7 text-stone-300">
+              {{ range . }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </section>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
