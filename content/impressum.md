@@ -1,35 +1,33 @@
 ---
 title: "Impressum"
-description: "Rechtliche Angaben fuer den Unternehmensauftritt von KLT Technik."
+description: "Rechtliche Angaben für den Unternehmensauftritt von KLT Technik."
 ---
-Die folgenden Inhalte sind als Platzhalter fuer den finalen Impressumstext angelegt und sollten vor der Veroeffentlichung mit den echten Unternehmensdaten vervollstaendigt werden.
+Impressum gem. § 24 MedienG sowie Anbieterinformationen gem. § 5 Abs 1 E-Commerce-Gesetz
 
-## Angaben gemaess ECG
+## Herausgeber und Medieninhaber
 
-**KLT Technik**
+KLT Technik GmbH  
+Kinskygasse 36-38, 1230 Wien
 
-Bitte ergaenzen:
+## Kontakt
 
-- Rechtsform
-- Vertretungsberechtigte Person
-- Strasse und Hausnummer
-- Postleitzahl und Ort
-- Telefon
-- E-Mail
+Tel.: +43(0)1-913 99 23  
+Fax: +43(0)1-253 30 33-3404  
+E-Mail: office@klt-technik.com
+
+## Bankverbindung
+
+Bankverbindung: Volksbank Nö  
+BIC (SWIFT): VBOEATWWNOM  
+Bankleitzahl: AT45 4715 0391 2706 0000
 
 ## Unternehmensdaten
 
-Bitte ergaenzen:
+Firmenbuchgericht: St.Pölten  
+Firmenbuchnummer: Nr. 401545h  
+Kammer/Berufsverband: Wirtschaftskammer Österreich
 
-- Firmenbuchnummer
-- Firmenbuchgericht
-- UID-Nummer
-- Gewerbebehorde
+Hauptgeschäftstätigkeit: Küchenlüftungstechnik
 
-## Haftung fuer Inhalte
-
-Die Inhalte dieser Website werden mit Sorgfalt gepflegt. Fuer die Richtigkeit, Vollstaendigkeit und Aktualitaet aller Informationen wird dennoch keine Haftung uebernommen.
-
-## Urheberrecht
-
-Alle Inhalte dieser Website unterliegen dem Urheberrecht. Eine Verwendung ausserhalb der Grenzen des Urheberrechts bedarf der vorherigen Zustimmung des Rechteinhabers.
+UID-Nummer: ATU 68172808  
+DVR-Nummer: 901938169

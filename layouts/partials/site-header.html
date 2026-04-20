@@ -1,11 +1,7 @@
-<header class="sticky top-0 z-30 border-b border-white/10 bg-stone-950/90 backdrop-blur">
+<header class="sticky top-0 z-30 border-b border-black/10 bg-white/95 backdrop-blur">
   <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4 md:flex-row md:items-center md:justify-between md:px-10">
     <a class="flex items-center gap-4" href="{{ "/" | relURL }}">
       <img class="h-12 w-auto" src="{{ site.Params.logo | relURL }}" alt="{{ site.Params.companyName }} Logo">
-      <div>
-        <span class="block text-sm font-semibold uppercase tracking-[0.35em] text-amber-300">KLT Technik</span>
-        <span class="block text-xs text-stone-400">Projekte, Produkte und technische Umsetzung</span>
-      </div>
     </a>
 
     {{ $current := . }}
@@ -13,7 +9,7 @@
       {{ range site.Menus.main }}
         {{ $isActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (eq $current.RelPermalink .URL) }}
         <a
-          class="rounded-full px-4 py-2 text-sm font-semibold transition {{ if $isActive }}bg-white/10 text-white{{ else }}text-stone-300 hover:bg-white/5 hover:text-white{{ end }}"
+          class="rounded-full px-4 py-2 text-sm font-semibold transition {{ if $isActive }}bg-[#43A62A] text-white{{ else }}text-black/70 hover:bg-black/[0.04] hover:text-black{{ end }}"
           href="{{ .URL }}"
         >
           {{ .Name }}

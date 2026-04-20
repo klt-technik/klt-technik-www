@@ -6,6 +6,8 @@ summary = "Kurzbeschreibung des Projekts."
 year = ""
 location = ""
 sector = ""
+image = ""
+imageAlt = ""
 
 [[facts]]
 label = "Leistungsumfang"
@@ -29,8 +31,8 @@ Beschreiben Sie hier den Projektkontext und die technische Herausforderung.
 
 ## Umsetzung
 
-Erlaeutern Sie Planung, Konstruktion, Fertigung und Montage.
+Erläutern Sie Planung, Konstruktion, Fertigung und Montage.
 
 ## Ergebnis
 
-Beschreiben Sie das Resultat und den Mehrwert fuer den Kunden.
+Beschreiben Sie das Resultat und den Mehrwert für den Kunden.

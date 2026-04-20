@@ -1,19 +1,31 @@
-<article class="surface-card group flex h-full flex-col p-6 transition duration-300 hover:-translate-y-1 hover:border-amber-300/40">
-  <div class="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.28em] text-stone-400">
+<a class="surface-card group flex h-full flex-col overflow-hidden p-6 transition duration-300 hover:-translate-y-1 hover:border-[#43A62A]" href="{{ .RelPermalink }}">
+  {{ with .Params.image }}
+    <div class="-mx-6 -mt-6 mb-6 border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(42,67,166,0.06))] px-5 py-5">
+      <img
+        class="h-56 w-full object-contain"
+        src="{{ . | relURL }}"
+        alt="{{ $.Params.imageAlt | default $.Title }}"
+        loading="lazy"
+        decoding="async"
+      >
+    </div>
+  {{ end }}
+
+  <div class="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">
     <span>{{ .Params.sector | default "Projekt" }}</span>
     {{ with .Params.year }}<span>{{ . }}</span>{{ end }}
   </div>
 
-  <h3 class="mt-5 text-2xl font-semibold text-white">
-    <a class="transition group-hover:text-amber-200" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <h3 class="mt-5 text-2xl font-semibold text-black">
+    <span class="transition group-hover:text-[#2A43A6]">{{ .Title }}</span>
   </h3>
 
   {{ with .Params.summary }}
-    <p class="mt-4 flex-1 text-sm leading-7 text-stone-300">{{ . }}</p>
+    <p class="mt-4 flex-1 text-sm leading-7 text-black/70">{{ . }}</p>
   {{ end }}
 
-  <div class="mt-6 flex items-center justify-between border-t border-white/10 pt-5 text-sm text-stone-300">
+  <div class="mt-6 flex items-center justify-between border-t border-black/10 pt-5 text-sm text-black/60">
     <span>{{ .Params.location }}</span>
-    <a class="font-semibold text-amber-300 transition hover:text-amber-200" href="{{ .RelPermalink }}">Details</a>
+    <span class="font-semibold text-[#A62A43] transition group-hover:text-[#8f2339]">Details</span>
   </div>
-</article>
+</a>

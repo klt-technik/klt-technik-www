@@ -1,26 +1,41 @@
 {{ define "main" }}
   <section class="mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-20">
-    <div class="grid gap-10 xl:grid-cols-[minmax(0,1fr)_360px]">
-      <div class="max-w-4xl">
-        <p class="eyebrow">{{ .Params.sector | default "Projekt" }}</p>
-        <h1 class="mt-4 text-4xl font-semibold tracking-tight text-white md:text-6xl">{{ .Title }}</h1>
-        {{ with .Params.summary }}
-          <p class="mt-6 max-w-3xl text-lg leading-8 text-stone-300 md:text-xl">{{ . }}</p>
-        {{ end }}
-      </div>
-
-      <aside class="surface-card h-fit p-6">
-        <p class="text-xs font-semibold uppercase tracking-[0.28em] text-stone-400">Projektdaten</p>
-        <div class="mt-6 space-y-5">
-          {{ range .Params.facts }}
-            <div class="border-b border-white/10 pb-4 last:border-b-0 last:pb-0">
-              <p class="text-sm text-stone-400">{{ .label }}</p>
-              <p class="mt-2 text-base font-semibold text-white">{{ .value }}</p>
-            </div>
+    <header class="surface-card overflow-hidden p-8 md:p-10">
+      <div class="grid gap-10 xl:grid-cols-[minmax(0,1fr)_360px] xl:items-start">
+        <div class="min-w-0 max-w-4xl">
+          <h1 class="text-4xl font-semibold tracking-tight text-black md:text-6xl">{{ .Title }}</h1>
+          {{ with .Params.summary }}
+            <p class="mt-6 max-w-3xl text-lg leading-8 text-black/70 md:text-xl">{{ . }}</p>
           {{ end }}
         </div>
-      </aside>
-    </div>
+
+        <aside class="xl:border-l xl:border-black/10 xl:pl-8">
+          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">Projektdaten</p>
+          <div class="mt-6 grid gap-4 sm:grid-cols-3 xl:grid-cols-1">
+            {{ range .Params.facts }}
+              <div class="rounded-3xl border border-black/10 bg-[#43A62A]/[0.05] p-5">
+                <p class="text-sm text-black/60">{{ .label }}</p>
+                <p class="mt-2 text-base font-semibold text-black">{{ .value }}</p>
+              </div>
+            {{ end }}
+          </div>
+        </aside>
+      </div>
+
+      {{ with .Params.image }}
+        <figure class="mt-10 overflow-hidden rounded-[2rem] border border-black/10 bg-gradient-to-br from-[#43A62A]/10 via-white to-[#2A43A6]/10 p-6 md:p-8">
+          <div class="flex min-h-[280px] items-center justify-center md:min-h-[420px]">
+            <img
+              class="max-h-[420px] w-full object-contain"
+              src="{{ . | relURL }}"
+              alt="{{ $.Params.imageAlt | default $.Title }}"
+              loading="eager"
+              decoding="async"
+            >
+          </div>
+        </figure>
+      {{ end }}
+    </header>
 
     <div class="mt-12 grid gap-10 xl:grid-cols-[minmax(0,1fr)_360px]">
       <div class="surface-card p-8 md:p-10">
@@ -32,8 +47,8 @@
       <div class="grid gap-6">
         {{ with .Params.services }}
           <section class="surface-card p-6">
-            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-stone-400">Leistungen</p>
-            <ul class="mt-5 space-y-3 text-sm leading-7 text-stone-300">
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#43A62A]">Leistungen</p>
+            <ul class="mt-5 space-y-3 text-sm leading-7 text-black/70">
               {{ range . }}
                 <li>{{ . }}</li>
               {{ end }}
@@ -43,8 +58,8 @@
 
         {{ with .Params.deliverables }}
           <section class="surface-card p-6">
-            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-stone-400">Projektumfang</p>
-            <ul class="mt-5 space-y-3 text-sm leading-7 text-stone-300">
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#A62A43]">Projektumfang</p>
+            <ul class="mt-5 space-y-3 text-sm leading-7 text-black/70">
               {{ range . }}
                 <li>{{ . }}</li>
               {{ end }}

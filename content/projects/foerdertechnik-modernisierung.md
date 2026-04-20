@@ -1,11 +1,13 @@
 ---
-title: "Modernisierung einer Foerdertechniklinie"
-description: "Projektseite fuer die Modernisierung einer bestehenden Foerdertechnik mit neuen Tragstrukturen und Schnittstellen."
+title: "Modernisierung einer Fördertechniklinie"
+description: "Projektseite für die Modernisierung einer bestehenden Fördertechnik mit neuen Tragstrukturen und Schnittstellen."
 weight: 10
-summary: "Umbau einer bestehenden Linie mit neuer Tragebene, angepassten Servicezugaengen und einer montagefreundlichen Stahlbaukonstruktion."
+summary: "Umbau einer bestehenden Linie mit neuer Tragebene, angepassten Servicezugängen und einer montagefreundlichen Stahlbaukonstruktion."
 year: "2025"
-location: "Niederoesterreich"
-sector: "Foerdertechnik"
+location: "Niederösterreich"
+sector: "Fördertechnik"
+image: "images/carousel-planung.svg"
+imageAlt: "Illustration zur technischen Planung einer Fördertechniklinie"
 facts:
   - label: "Leistungsumfang"
     value: "Bestandsaufnahme, Konstruktion, Fertigung und Montage"
@@ -14,22 +16,22 @@ facts:
   - label: "Status"
     value: "Abgeschlossen"
 services:
-  - Technische Aufnahme der Bestandssituation inklusive Schnittstellenpruefung
+  - Technische Aufnahme der Bestandssituation inklusive Schnittstellenprüfung
   - Konstruktion der neuen Tragstruktur mit Wartungs- und Zugangsbereichen
   - Koordination der Fertigung und gestaffelte Montage im laufenden Betrieb
 deliverables:
-  - Tragkonstruktion fuer die neue Linienfuehrung
-  - Servicepodeste und Gelandersysteme
-  - Montagepakete fuer kurze Stillstandsfenster
+  - Tragkonstruktion für die neue Linienführung
+  - Servicepodeste und Geländersysteme
+  - Montagepakete für kurze Stillstandsfenster
 ---
 ## Ausgangslage
 
-Eine bestehende Foerdertechniklinie musste erweitert werden, ohne angrenzende Produktionsbereiche langfristig ausser Betrieb zu setzen. Die neue Konstruktion musste in die vorhandenen Platzverhaeltnisse passen und gleichzeitig wartungsfreundlicher werden.
+Eine bestehende Fördertechniklinie musste erweitert werden, ohne angrenzende Produktionsbereiche langfristig außer Betrieb zu setzen. Die neue Konstruktion musste in die vorhandenen Platzverhältnisse passen und gleichzeitig wartungsfreundlicher werden.
 
 ## Umsetzung
 
-KLT Technik uebernahm die technische Bestandsaufnahme, plante die neue Tragebene und stimmte Konstruktion und Fertigung auf kurze Montagefenster ab. Dadurch liessen sich einzelne Baugruppen vorfertigen und vor Ort zuegig einheben.
+KLT Technik übernahm die technische Bestandsaufnahme, plante die neue Tragebene und stimmte Konstruktion und Fertigung auf kurze Montagefenster ab. Dadurch ließen sich einzelne Baugruppen vorfertigen und vor Ort zügig einheben.
 
 ## Ergebnis
 
-Die modernisierte Linie fuegt sich sauber in den Bestand ein, reduziert Umwege bei Wartungsarbeiten und schafft eine belastbare Grundlage fuer weitere Ausbauphasen.
+Die modernisierte Linie fügt sich sauber in den Bestand ein, reduziert Umwege bei Wartungsarbeiten und schafft eine belastbare Grundlage für weitere Ausbauphasen.

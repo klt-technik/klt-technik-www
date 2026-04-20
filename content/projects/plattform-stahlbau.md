@@ -1,11 +1,13 @@
 ---
-title: "Stahlbauplattform fuer Wartung und Bedienung"
-description: "Projektseite fuer eine Plattformloesung mit sicheren Zugangswegen und abgestimmter Tragekonstruktion."
+title: "Stahlbauplattform für Wartung und Bedienung"
+description: "Projektseite für eine Plattformlösung mit sicheren Zugangswegen und abgestimmter Tragekonstruktion."
 weight: 20
-summary: "Planung und Umsetzung einer Plattformkonstruktion mit Treppenlaeufen, Podesten und angepassten Sicherheitsbauteilen."
+summary: "Planung und Umsetzung einer Plattformkonstruktion mit Treppenläufen, Podesten und angepassten Sicherheitsbauteilen."
 year: "2024"
 location: "Steiermark"
 sector: "Stahlbau"
+image: "images/carousel-stahlbau.svg"
+imageAlt: "Illustration einer Stahlbauplattform mit Tragstruktur"
 facts:
   - label: "Leistungsumfang"
     value: "Konzept, Detailkonstruktion und Montagebegleitung"
@@ -14,22 +16,22 @@ facts:
   - label: "Status"
     value: "Abgeschlossen"
 services:
-  - Entwicklung eines tragfaehigen Plattformkonzepts fuer den Bestand
+  - Entwicklung eines tragfähigen Plattformkonzepts für den Bestand
   - Abstimmung von Zugangswegen, Treppenwinkeln und Sicherheitsbereichen
-  - Detailklaerung fuer eine effiziente Vormontage
+  - Detailklärung für eine effiziente Vormontage
 deliverables:
-  - Plattformen mit Gelaendern und Zwischenpodesten
-  - Anschlussdetails fuer vorhandene Tragpunkte
-  - Montageunterlagen fuer die Baustellenphase
+  - Plattformen mit Geländern und Zwischenpodesten
+  - Anschlussdetails für vorhandene Tragpunkte
+  - Montageunterlagen für die Baustellenphase
 ---
 ## Ausgangslage
 
-Fuer Wartungs- und Bedienaufgaben an einer bestehenden Anlage fehlte eine dauerhaft sichere Zugangsebene. Die Konstruktion sollte kompakt bleiben und sich in vorhandene Tragpunkte integrieren lassen.
+Für Wartungs- und Bedienaufgaben an einer bestehenden Anlage fehlte eine dauerhaft sichere Zugangsebene. Die Konstruktion sollte kompakt bleiben und sich in vorhandene Tragpunkte integrieren lassen.
 
 ## Umsetzung
 
-Die Plattform wurde so ausgelegt, dass Fertigung und Montage ohne unnoetige Sonderloesungen auskommen. KLT Technik definierte tragende Anschluesse, Wegefuehrung und notwendige Sicherheitsdetails frueh im Projekt.
+Die Plattform wurde so ausgelegt, dass Fertigung und Montage ohne unnötige Sonderlösungen auskommen. KLT Technik definierte tragende Anschlüsse, Wegeführung und notwendige Sicherheitsdetails früh im Projekt.
 
 ## Ergebnis
 
-Das Projekt schafft klare und sichere Zugaenge fuer Bedienung und Service. Gleichzeitig wurde die Montagezeit vor Ort reduziert, weil tragende und nichttragende Elemente sauber getrennt vorbereitet wurden.
+Das Projekt schafft klare und sichere Zugänge für Bedienung und Service. Gleichzeitig wurde die Montagezeit vor Ort reduziert, weil tragende und nichttragende Elemente sauber getrennt vorbereitet wurden.

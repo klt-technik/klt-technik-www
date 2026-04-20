@@ -4,7 +4,7 @@ title = "KLT Technik"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-description = "KLT Technik realisiert technische Projekte, Sonderkonstruktionen und ausgewaehlte Produkte fuer industrielle Anwendungen."
+description = "KLT Technik realisiert technische Projekte, Sonderkonstruktionen und ausgewählte Produkte für industrielle Anwendungen."
 companyName = "KLT Technik"
 logo = "images/logo-klt-technik.svg"
 
