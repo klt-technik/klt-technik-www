@@ -82,10 +82,24 @@
 
       <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         {{ range . }}
-          <article class="surface-card p-6">
-            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">{{ .role }}</p>
-            <h3 class="mt-4 text-2xl font-semibold text-black">{{ .title }}</h3>
-            <p class="mt-4 text-sm leading-7 text-black/70">{{ .text }}</p>
+          {{ $member := . }}
+          <article class="surface-card overflow-hidden">
+            {{ with $member.image }}
+              <div class="border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.06),rgba(42,67,166,0.08))]">
+                <img
+                  class="h-64 w-full object-cover"
+                  src="{{ . | relURL }}"
+                  alt="{{ $member.imageAlt | default $member.title }}"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </div>
+            {{ end }}
+            <div class="p-6">
+              <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">{{ $member.role }}</p>
+              <h3 class="mt-4 text-2xl font-semibold text-black">{{ $member.title }}</h3>
+              <p class="mt-4 text-sm leading-7 text-black/70">{{ $member.text }}</p>
+            </div>
           </article>
         {{ end }}
       </div>
