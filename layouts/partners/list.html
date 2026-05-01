@@ -1,0 +1,72 @@
+{{ define "main" }}
+  <section class="mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-20">
+    <div class="max-w-3xl">
+      <h1 class="text-4xl font-semibold tracking-tight text-black md:text-5xl">{{ .Title }}</h1>
+      {{ with .Params.description }}
+        <p class="mt-6 text-lg text-black/70">{{ . }}</p>
+      {{ end }}
+    </div>
+
+    {{ if gt (len (strings.TrimSpace .RawContent)) 0 }}
+      <div class="surface-card mt-12 p-0">
+        <div class="rich-text">
+          {{ .Content }}
+        </div>
+      </div>
+    {{ end }}
+
+    <div class="mt-12 grid gap-8">
+      {{ range .Params.partners }}
+        {{ $partner := . }}
+        <section class="section-blue px-6 py-8 md:px-8 md:py-10">
+          <div class="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.35fr)] lg:items-start">
+            <div>
+              {{ with .logo }}
+                <div class="inline-flex min-h-24 min-w-56 items-center justify-center rounded-[2px] px-6 py-5 {{ if eq $partner.logoTheme "blue" }}bg-[#1a2e47]{{ else }}bg-white{{ end }}">
+                  <img
+                    class="max-h-16 max-w-48 object-contain"
+                    src="{{ . | relURL }}"
+                    alt="{{ $partner.logoAlt | default $partner.name }}"
+                    loading="lazy"
+                    decoding="async"
+                  >
+                </div>
+              {{ end }}
+              <p class="mt-8 text-sm font-semibold uppercase tracking-[0.28em] text-white/70">Partner</p>
+              <h2 class="mt-4 text-3xl font-semibold tracking-tight text-white md:text-4xl">{{ .name }}</h2>
+              <p class="mt-4 text-base font-semibold leading-7 text-[#43A62A]">{{ .focus }}</p>
+              {{ with .url }}
+                <a class="mt-8 inline-flex items-center rounded-[2px] border border-white/25 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10" href="{{ . }}" target="_blank" rel="noopener noreferrer">Website besuchen</a>
+              {{ end }}
+            </div>
+
+            <div class="grid gap-7">
+              <div>
+                <h3 class="text-xl font-semibold text-white">Über den Partner</h3>
+                <p class="mt-3 text-sm leading-7 text-white/75">{{ .intro }}</p>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-semibold text-white">Produkte und Technologie</h3>
+                <p class="mt-3 text-sm leading-7 text-white/75">{{ .product }}</p>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-semibold text-white">Einsatz bei KLT Technik</h3>
+                <p class="mt-3 text-sm leading-7 text-white/75">{{ .usage }}</p>
+              </div>
+
+              {{ with .points }}
+                <ul class="grid gap-3 border-t border-white/15 pt-6 md:grid-cols-3">
+                  {{ range . }}
+                    <li class="text-sm leading-6 text-white/75">{{ . }}</li>
+                  {{ end }}
+                </ul>
+              {{ end }}
+            </div>
+          </div>
+        </section>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
