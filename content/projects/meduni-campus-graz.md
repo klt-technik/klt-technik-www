@@ -5,7 +5,7 @@ weight: 5
 summary: "Installation einer bedarfsgesteuerten Küchenlüftung mit Intelli-Hood an der Medizinischen Universität Graz und deutlicher Senkung von Energieverbrauch, CO2-Ausstoß und Betriebskosten."
 location: "Graz"
 sector: "Gebäudetechnik"
-image: "images/projects/meduni-campus-graz-kueche.webp"
+image: "images/projects/meduni-campus-graz-kueche.jpg"
 imageAlt: "Großküche der Medizinischen Universität Graz mit installierter Lüftungstechnik"
 facts:
   - label: "Energieeinsparung"
