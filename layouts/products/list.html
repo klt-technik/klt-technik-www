@@ -18,11 +18,11 @@
     <div class="mt-12 grid gap-8 lg:grid-cols-3">
       {{ range .Params.products }}
         {{ $product := . }}
-        <article class="surface-card flex h-full flex-col overflow-hidden p-0">
+        <article class="surface-card listing-card-blue flex h-full flex-col overflow-hidden p-0">
           {{ with .image }}
-            <div class="mb-6 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))] px-5 py-5">
+            <div class="listing-card-media mb-6 aspect-[4/3] bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))]">
               <img
-                class="h-56 w-full object-contain"
+                class="h-full w-full object-cover"
                 src="{{ . | relURL }}"
                 alt="{{ $product.imageAlt | default $product.name }}"
                 loading="lazy"
@@ -31,20 +31,22 @@
             </div>
           {{ end }}
 
-          <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#A62A43]">{{ .category }}</p>
-          <h2 class="mt-4 text-2xl font-semibold text-black">{{ .name }}</h2>
-          <p class="mt-4 text-sm leading-7 text-black/70">{{ .description }}</p>
+          <div class="flex flex-1 flex-col px-6 pb-6">
+            <p class="listing-card-kicker text-sm font-semibold uppercase tracking-[0.28em]">{{ .category }}</p>
+            <h2 class="listing-card-title mt-4 text-2xl font-semibold">{{ .name }}</h2>
+            <p class="listing-card-body mt-4 text-sm leading-7">{{ .description }}</p>
 
-          {{ with .applications }}
-            <div class="mt-6">
-              <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">Einsatzbereiche</p>
-              <ul class="mt-4 space-y-3 text-sm text-black/70">
-                {{ range . }}
-                  <li>{{ . }}</li>
-                {{ end }}
-              </ul>
-            </div>
-          {{ end }}
+            {{ with .applications }}
+              <div class="mt-6">
+                <p class="listing-card-kicker text-xs font-semibold uppercase tracking-[0.28em]">Einsatzbereiche</p>
+                <ul class="listing-card-list mt-4 space-y-3 text-sm">
+                  {{ range . }}
+                    <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+          </div>
         </article>
       {{ end }}
     </div>

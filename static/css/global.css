@@ -61,6 +61,44 @@ h4 {
   color: #ffffff;
 }
 
+.listing-card-blue {
+  border: 0;
+  background: var(--blue);
+  color: #ffffff;
+}
+
+.listing-card-media {
+  width: 100%;
+  overflow: hidden;
+}
+
+.listing-card-media img {
+  display: block;
+}
+
+.listing-card-blue .listing-card-kicker,
+.listing-card-blue .listing-card-meta,
+.listing-card-blue .listing-card-body,
+.listing-card-blue .listing-card-list {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.listing-card-blue .listing-card-title {
+  color: #ffffff;
+}
+
+.listing-card-blue .listing-card-action {
+  color: var(--green);
+}
+
+.listing-card-blue:hover .listing-card-title {
+  color: #ffffff;
+}
+
+.listing-card-blue:hover .listing-card-action {
+  color: #ffffff;
+}
+
 .carousel-shell {
   --carousel-gap: 1.5rem;
   --carousel-slide-size: clamp(18rem, 32vw, 27rem);
