@@ -29,8 +29,8 @@ url = "/#contact"
 weight = 17
 
 [[menus.main]]
-name = "Projekte"
-pageRef = "/projects"
+name = "Referenzen"
+pageRef = "/referenzen"
 weight = 20
 
 [[menus.main]]
