@@ -188,6 +188,10 @@ h4 {
   font-size: 0.95rem;
 }
 
+.impressum-rich-text #strasser-strasser {
+  margin-top: 4rem;
+}
+
 .rich-text ul {
   list-style: disc;
   margin-left: 1.25rem;
