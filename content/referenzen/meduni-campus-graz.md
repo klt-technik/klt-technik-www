@@ -25,7 +25,10 @@ deliverables:
   - Dynamische Regelung der Lüftergeschwindigkeit nach Echtzeitbedarf
   - Reduzierte Energie- und Betriebskosten bei gleichbleibender Arbeitssicherheit
 ---
-Die vollständige Fallstudie steht auch als [PDF-Download](/downloads/meduni-campus-graz-fallstudie.pdf) zur Verfügung.
+Die vollständige Fallstudie steht als PDF in zwei Sprachversionen zur Verfügung:
+
+- [Deutsche Fallstudie herunterladen](/downloads/meduni-campus-graz-fallstudie.pdf)
+- [English case study download](/downloads/melink-meduni-graz-case-study.pdf)
 
 ## Ausgangslage
 

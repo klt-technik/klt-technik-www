@@ -12,8 +12,10 @@ partners:
     product: "Intelli-Hood kombiniert optische und temperaturbasierte Erfassung mit intelligenter Regelung und Reporting. Dadurch laufen Ventilatoren nicht dauerhaft mit voller Leistung, sondern reagieren auf Kochlast, Temperatur und Nutzungssituation. Das senkt Ventilatorenergie, reduziert den Bedarf an konditionierter Zuluft und verbessert zugleich Arbeitskomfort und Betriebstransparenz."
     usage: "KLT Technik nutzt Intelli-Hood projektbezogen dort, wo Großküchen mit wechselnder Auslastung, langen Betriebszeiten oder klaren Energiezielen geplant werden. In der technischen Auslegung wird das System in Hauben, Lüftungsdecken und die zugehörige Regelung eingebunden, damit Luftmengen nicht nur normgerecht berechnet, sondern im Alltag bedarfsgerecht gefahren werden."
     downloads:
-      - label: "Case Study Med-Uni Graz"
+      - label: "Case Study Med-Uni Graz (English)"
         file: "downloads/melink-meduni-graz-case-study.pdf"
+      - label: "Fallstudie Med Uni Graz (Deutsch)"
+        file: "downloads/meduni-campus-graz-fallstudie.pdf"
       - label: "Case Study Mandarin Oriental Hotel"
         file: "downloads/melink-mandarin-oriental-hotel-case-study.pdf"
     points:
