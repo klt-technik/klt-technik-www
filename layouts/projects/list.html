@@ -8,14 +8,14 @@
     </div>
 
     {{ if gt (len (strings.TrimSpace .RawContent)) 0 }}
-      <div class="surface-card mt-10 p-8 md:p-10">
+      <div class="surface-card mt-12 p-0">
         <div class="rich-text">
           {{ .Content }}
         </div>
       </div>
     {{ end }}
 
-    <div class="mt-10 grid gap-6 lg:grid-cols-3">
+    <div class="mt-12 grid gap-8 lg:grid-cols-3">
       {{ range .RegularPages.ByWeight }}
         {{ partial "project-card.html" . }}
       {{ end }}

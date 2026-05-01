@@ -8,19 +8,19 @@
     </div>
 
     {{ if gt (len (strings.TrimSpace .RawContent)) 0 }}
-      <div class="surface-card mt-10 p-8 md:p-10">
+      <div class="surface-card mt-12 p-0">
         <div class="rich-text">
           {{ .Content }}
         </div>
       </div>
     {{ end }}
 
-    <div class="mt-10 grid gap-6 lg:grid-cols-3">
+    <div class="mt-12 grid gap-8 lg:grid-cols-3">
       {{ range .Params.products }}
         {{ $product := . }}
-        <article class="surface-card flex h-full flex-col overflow-hidden p-6">
+        <article class="surface-card flex h-full flex-col overflow-hidden p-0">
           {{ with .image }}
-            <div class="-mx-6 -mt-6 mb-6 border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))] px-5 py-5">
+            <div class="mb-6 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))] px-5 py-5">
               <img
                 class="h-56 w-full object-contain"
                 src="{{ . | relURL }}"
@@ -36,7 +36,7 @@
           <p class="mt-4 text-sm leading-7 text-black/70">{{ .description }}</p>
 
           {{ with .applications }}
-            <div class="mt-6 border-t border-black/10 pt-6">
+            <div class="mt-6">
               <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">Einsatzbereiche</p>
               <ul class="mt-4 space-y-3 text-sm text-black/70">
                 {{ range . }}

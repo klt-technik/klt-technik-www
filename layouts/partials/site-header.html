@@ -9,7 +9,7 @@
       {{ range site.Menus.main }}
         {{ $isActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (eq $current.RelPermalink .URL) }}
         <a
-          class="rounded-full px-4 py-2 text-sm font-semibold transition {{ if $isActive }}bg-[#43A62A] text-white{{ else }}text-black/70 hover:bg-black/[0.04] hover:text-black{{ end }}"
+          class="rounded-[2px] px-4 py-2 text-sm font-semibold transition {{ if $isActive }}bg-[#43A62A] text-white{{ else }}text-black/70 hover:bg-black/[0.04] hover:text-black{{ end }}"
           data-nav-link
           href="{{ .URL }}"
           {{ if $isActive }}aria-current="page"{{ end }}
