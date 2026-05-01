@@ -20,7 +20,7 @@
         {{ $product := . }}
         <article class="surface-card flex h-full flex-col overflow-hidden p-6">
           {{ with .image }}
-            <div class="-mx-6 -mt-6 mb-6 border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(42,67,166,0.06))] px-5 py-5">
+            <div class="-mx-6 -mt-6 mb-6 border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))] px-5 py-5">
               <img
                 class="h-56 w-full object-contain"
                 src="{{ . | relURL }}"
@@ -37,7 +37,7 @@
 
           {{ with .applications }}
             <div class="mt-6 border-t border-black/10 pt-6">
-              <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">Einsatzbereiche</p>
+              <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">Einsatzbereiche</p>
               <ul class="mt-4 space-y-3 text-sm text-black/70">
                 {{ range . }}
                   <li>{{ . }}</li>

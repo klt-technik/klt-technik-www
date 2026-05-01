@@ -7,7 +7,7 @@
   --surface-shadow: 0 18px 50px rgba(0, 0, 0, 0.06);
   --ink: #000000;
   --green: #43a62a;
-  --blue: #2a43a6;
+  --blue: #1a2e47;
   --red: #a62a43;
 }
 
@@ -38,6 +38,27 @@ h4 {
   background: var(--surface-bg);
   box-shadow: var(--surface-shadow);
   border-radius: 1.75rem;
+}
+
+.section-blue {
+  background: var(--blue);
+  color: #ffffff;
+}
+
+.surface-card-blue {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.07);
+  color: #ffffff;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.16);
+}
+
+.surface-card-blue .blue-card-kicker,
+.surface-card-blue .blue-card-muted {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.surface-card-blue .blue-card-title {
+  color: #ffffff;
 }
 
 .carousel-shell {
@@ -86,7 +107,7 @@ h4 {
   padding: 0;
   box-shadow: none;
   background:
-    linear-gradient(135deg, rgba(67, 166, 42, 0.04), rgba(42, 67, 166, 0.06)),
+    linear-gradient(135deg, rgba(67, 166, 42, 0.04), rgba(26, 46, 71, 0.08)),
     var(--surface-bg);
 }
 

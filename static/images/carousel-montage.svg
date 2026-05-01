@@ -6,11 +6,11 @@
   <circle cx="375" cy="300" r="92" fill="white" fill-opacity="0.12"/>
   <path d="M305 300H445" stroke="white" stroke-width="18" stroke-linecap="round"/>
   <path d="M375 230V370" stroke="white" stroke-width="18" stroke-linecap="round"/>
-  <path d="M720 270H940" stroke="#2A43A6" stroke-width="16" stroke-linecap="round"/>
+  <path d="M720 270H940" stroke="#1a2e47" stroke-width="16" stroke-linecap="round"/>
   <path d="M720 340H900" stroke="#000000" stroke-opacity="0.68" stroke-width="12" stroke-linecap="round"/>
   <path d="M720 392H860" stroke="#000000" stroke-opacity="0.42" stroke-width="12" stroke-linecap="round"/>
   <path d="M240 560C350 430 470 430 510 530" stroke="white" stroke-width="14" stroke-linecap="round"/>
-  <circle cx="798" cy="560" r="86" fill="#2A43A6"/>
+  <circle cx="798" cy="560" r="86" fill="#1a2e47"/>
   <path d="M760 560L786 586L842 530" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M170 730H1030" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-opacity="0.12"/>
 </svg>

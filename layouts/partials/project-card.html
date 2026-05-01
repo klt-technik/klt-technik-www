@@ -1,6 +1,6 @@
 <a class="surface-card group flex h-full flex-col overflow-hidden p-6 transition duration-300 hover:-translate-y-1 hover:border-[#43A62A]" href="{{ .RelPermalink }}">
   {{ with .Params.image }}
-    <div class="-mx-6 -mt-6 mb-6 aspect-[4/3] overflow-hidden border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(42,67,166,0.06))]">
+    <div class="-mx-6 -mt-6 mb-6 aspect-[4/3] overflow-hidden border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))]">
       <img
         class="h-full w-full object-cover"
         src="{{ . | relURL }}"
@@ -11,13 +11,13 @@
     </div>
   {{ end }}
 
-  <div class="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">
+  <div class="flex items-center justify-between gap-4 text-xs font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">
     <span>{{ .Params.sector | default "Projekt" }}</span>
     {{ with .Params.year }}<span>{{ . }}</span>{{ end }}
   </div>
 
   <h3 class="mt-5 text-2xl font-semibold text-black">
-    <span class="transition group-hover:text-[#2A43A6]">{{ .Title }}</span>
+    <span class="transition group-hover:text-[#1a2e47]">{{ .Title }}</span>
   </h3>
 
   {{ with .Params.summary }}

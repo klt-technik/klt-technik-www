@@ -5,14 +5,14 @@
   <circle cx="325" cy="300" r="110" fill="#A62A43"/>
   <path d="M270 302H380" stroke="white" stroke-width="18" stroke-linecap="round"/>
   <path d="M325 248V358" stroke="white" stroke-width="18" stroke-linecap="round"/>
-  <rect x="505" y="205" width="450" height="56" rx="18" fill="#2A43A6"/>
+  <rect x="505" y="205" width="450" height="56" rx="18" fill="#1a2e47"/>
   <rect x="505" y="300" width="370" height="32" rx="16" fill="#E4E8F6"/>
   <rect x="505" y="352" width="290" height="32" rx="16" fill="#E7EDD8"/>
   <rect x="505" y="404" width="220" height="32" rx="16" fill="#F0DCE1"/>
   <rect x="220" y="510" width="720" height="150" rx="26" fill="white" stroke="#E6E6E6" stroke-width="5"/>
   <path d="M285 585H875" stroke="#43A62A" stroke-width="14" stroke-linecap="round"/>
-  <circle cx="340" cy="585" r="20" fill="#2A43A6"/>
+  <circle cx="340" cy="585" r="20" fill="#1a2e47"/>
   <circle cx="520" cy="585" r="20" fill="#A62A43"/>
   <circle cx="700" cy="585" r="20" fill="#43A62A"/>
-  <circle cx="860" cy="585" r="20" fill="#2A43A6"/>
+  <circle cx="860" cy="585" r="20" fill="#1a2e47"/>
 </svg>

@@ -6,12 +6,12 @@
   <path d="M222 610c18-83 57-126 98-126s80 43 98 126" stroke="#09121F" stroke-opacity=".14" stroke-width="3"/>
   <circle cx="320" cy="250" r="46" fill="#D4DBE6"/>
   <rect x="84" y="84" width="112" height="44" rx="22" fill="#FFFFFF" fill-opacity=".88"/>
-  <text x="140" y="113" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="22" font-weight="700" fill="#2A43A6">GF</text>
+  <text x="140" y="113" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a2e47">GF</text>
   <path d="M440 122h84" stroke="#FFFFFF" stroke-opacity=".62" stroke-width="10" stroke-linecap="round"/>
   <path d="M448 150h62" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="10" stroke-linecap="round"/>
   <defs>
     <linearGradient id="bg" x1="92" y1="84" x2="556" y2="632" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2A43A6"/>
+      <stop stop-color="#1a2e47"/>
       <stop offset="1" stop-color="#43A62A"/>
     </linearGradient>
   </defs>

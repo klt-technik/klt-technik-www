@@ -11,20 +11,22 @@
       <p class="mt-6 max-w-2xl text-lg leading-8 text-black/70 md:text-xl">{{ .Params.hero.text }}</p>
       <div class="mt-10 flex flex-wrap gap-4">
         <a class="inline-flex items-center rounded-full bg-[#43A62A] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#388d24]" href="{{ "/projects/" | relURL }}">Zu den Projekten</a>
-        <a class="inline-flex items-center rounded-full border border-[#2A43A6] px-6 py-3 text-sm font-semibold text-[#2A43A6] transition hover:bg-[#2A43A6]/[0.06]" href="{{ "/products/" | relURL }}">Produkte ansehen</a>
+        <a class="inline-flex items-center rounded-full border border-[#1a2e47] px-6 py-3 text-sm font-semibold text-[#1a2e47] transition hover:bg-[#1a2e47]/[0.06]" href="{{ "/products/" | relURL }}">Produkte ansehen</a>
       </div>
     </div>
   </section>
 
   {{ with .Params.services }}
-    <section class="mx-auto max-w-7xl px-6 py-2 md:px-10 md:py-4">
-      <div class="grid gap-6 md:grid-cols-3">
-        {{ range . }}
-          <article class="surface-card p-6">
-            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#A62A43]">{{ .title }}</p>
-            <p class="mt-4 text-sm leading-7 text-black/70">{{ .text }}</p>
-          </article>
-        {{ end }}
+    <section class="section-blue py-12 md:py-16">
+      <div class="mx-auto max-w-7xl px-6 md:px-10">
+        <div class="grid gap-6 md:grid-cols-3">
+          {{ range . }}
+            <article class="surface-card surface-card-blue p-6">
+              <p class="blue-card-kicker text-sm font-semibold uppercase tracking-[0.28em]">{{ .title }}</p>
+              <p class="blue-card-muted mt-4 text-sm leading-7">{{ .text }}</p>
+            </article>
+          {{ end }}
+        </div>
       </div>
     </section>
   {{ end }}
@@ -65,7 +67,7 @@
       <div class="grid gap-6">
         {{ range .Params.focus }}
           <div class="surface-card p-6">
-            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">{{ .title }}</p>
+            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">{{ .title }}</p>
             <p class="mt-3 text-sm leading-7 text-black/70">{{ .text }}</p>
           </div>
         {{ end }}
@@ -85,7 +87,7 @@
           {{ $member := . }}
           <article class="surface-card overflow-hidden">
             {{ with $member.image }}
-              <div class="border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.06),rgba(42,67,166,0.08))]">
+              <div class="border-b border-black/10 bg-[linear-gradient(135deg,rgba(67,166,42,0.06),rgba(26,46,71,0.08))]">
                 <img
                   class="h-64 w-full object-cover"
                   src="{{ . | relURL }}"
@@ -96,7 +98,7 @@
               </div>
             {{ end }}
             <div class="p-6">
-              <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">{{ $member.role }}</p>
+              <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">{{ $member.role }}</p>
               <h3 class="mt-4 text-2xl font-semibold text-black">{{ $member.title }}</h3>
               <p class="mt-4 text-sm leading-7 text-black/70">{{ $member.text }}</p>
             </div>
@@ -107,35 +109,37 @@
   {{ end }}
 
   {{ with .Params.contact }}
-    <section id="contact" class="mx-auto max-w-7xl scroll-mt-28 px-6 py-12 md:px-10 md:py-16">
+    <section id="contact" class="section-blue scroll-mt-28 py-12 md:py-16">
       {{ $contact := . }}
       {{ $mapURL := printf "https://www.google.com/maps?q=%s&output=embed" (.address | urlquery) }}
-      <div class="max-w-2xl">
-        <h2 class="text-3xl font-semibold tracking-tight text-black md:text-4xl">Kontakt</h2>
-      </div>
+      <div class="mx-auto max-w-7xl px-6 md:px-10">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl font-semibold tracking-tight text-white md:text-4xl">Kontakt</h2>
+        </div>
 
-      <div class="mt-10">
-        <div class="surface-card p-8 md:p-10">
-          <p class="max-w-2xl text-lg leading-8 text-black/70">{{ .text }}</p>
-          <div class="mt-8 space-y-4 border-t border-black/10 pt-8">
-            <p class="text-2xl font-semibold text-black">{{ .company }}</p>
-            <p class="text-base leading-7 text-black/70">{{ .address }}</p>
-            <p>
-              <a class="text-base font-semibold text-[#2A43A6] transition hover:text-[#22378d]" href="{{ .phoneHref | safeURL }}">{{ .phone }}</a>
-            </p>
-            <p>
-              <a class="text-base font-semibold text-[#2A43A6] transition hover:text-[#22378d]" href="mailto:{{ .email }}">{{ .email }}</a>
-            </p>
-          </div>
-          <div class="mt-8 overflow-hidden rounded-[1.25rem] border border-black/10 bg-[#2A43A6]/[0.03]">
-            <iframe
-              class="h-[360px] w-full"
-              src="{{ $mapURL | safeURL }}"
-              title="{{ $contact.mapLabel }}"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              allowfullscreen
-            ></iframe>
+        <div class="mt-10">
+          <div class="surface-card surface-card-blue p-8 md:p-10">
+            <p class="blue-card-muted max-w-2xl text-lg leading-8">{{ .text }}</p>
+            <div class="mt-8 space-y-4 border-t border-white/15 pt-8">
+              <p class="blue-card-title text-2xl font-semibold">{{ .company }}</p>
+              <p class="blue-card-muted text-base leading-7">{{ .address }}</p>
+              <p>
+                <a class="text-base font-semibold text-white underline decoration-white/35 underline-offset-4 transition hover:decoration-white" href="{{ .phoneHref | safeURL }}">{{ .phone }}</a>
+              </p>
+              <p>
+                <a class="text-base font-semibold text-white underline decoration-white/35 underline-offset-4 transition hover:decoration-white" href="mailto:{{ .email }}">{{ .email }}</a>
+              </p>
+            </div>
+            <div class="mt-8 overflow-hidden rounded-[1.25rem] border border-white/15 bg-white/10">
+              <iframe
+                class="h-[360px] w-full"
+                src="{{ $mapURL | safeURL }}"
+                title="{{ $contact.mapLabel }}"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>

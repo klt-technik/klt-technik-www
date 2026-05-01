@@ -10,10 +10,10 @@
         </div>
 
         <aside class="xl:border-l xl:border-black/10 xl:pl-8">
-          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#2A43A6]">Projektdaten</p>
+          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">Projektdaten</p>
           <div class="mt-6 grid gap-4 sm:grid-cols-3 xl:grid-cols-1">
             {{ range .Params.facts }}
-              <div class="rounded-3xl border border-black/10 bg-[#43A62A]/[0.05] p-5">
+              <div class="rounded-3xl border border-black/10 bg-black/[0.03] p-5">
                 <p class="text-sm text-black/60">{{ .label }}</p>
                 <p class="mt-2 text-base font-semibold text-black">{{ .value }}</p>
               </div>
@@ -25,7 +25,7 @@
 
     {{ with .Params.image }}
       <figure class="surface-card mt-8 overflow-hidden">
-        <div class="aspect-[16/9] w-full bg-gradient-to-br from-[#43A62A]/10 via-white to-[#2A43A6]/10">
+        <div class="aspect-[16/9] w-full bg-gradient-to-br from-[#43A62A]/10 via-white to-[#1a2e47]/10">
           <img
             class="h-full w-full object-cover"
             src="{{ . | relURL }}"
