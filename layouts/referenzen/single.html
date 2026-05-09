@@ -1,7 +1,9 @@
 {{ define "main" }}
+  {{ $hasBody := gt (len (strings.TrimSpace .RawContent)) 0 }}
+  {{ $hasSideContent := or .Params.services .Params.deliverables }}
   <section class="mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-20">
     <header class="surface-card overflow-hidden p-0">
-      <div class="grid gap-10 xl:grid-cols-[minmax(0,1fr)_360px] xl:items-start">
+      <div class="grid gap-10 {{ if .Params.facts }}xl:grid-cols-[minmax(0,1fr)_360px] xl:items-start{{ end }}">
         <div class="min-w-0 max-w-4xl">
           <h1 class="text-4xl font-semibold tracking-tight text-black md:text-6xl">{{ .Title }}</h1>
           {{ with .Params.summary }}
@@ -9,17 +11,19 @@
           {{ end }}
         </div>
 
-        <aside class="xl:border-l xl:border-black/10 xl:pl-8">
-          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">Projektdaten</p>
-          <div class="mt-6 grid gap-6 sm:grid-cols-3 xl:grid-cols-1">
-            {{ range .Params.facts }}
+        {{ with .Params.facts }}
+          <aside class="xl:border-l xl:border-black/10 xl:pl-8">
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">Projektdaten</p>
+            <div class="mt-6 grid gap-6 sm:grid-cols-3 xl:grid-cols-1">
+              {{ range . }}
               <div class="rounded-[2px] p-0">
                 <p class="text-sm text-black/60">{{ .label }}</p>
                 <p class="mt-2 text-base font-semibold text-black">{{ .value }}</p>
               </div>
-            {{ end }}
-          </div>
-        </aside>
+              {{ end }}
+            </div>
+          </aside>
+        {{ end }}
       </div>
     </header>
 
@@ -37,36 +41,42 @@
       </figure>
     {{ end }}
 
-    <div class="mt-12 grid gap-10 xl:grid-cols-[minmax(0,1fr)_360px]">
-      <div class="surface-card p-0">
-        <div class="rich-text">
-          {{ .Content }}
+    {{ if or $hasBody $hasSideContent }}
+      <div class="mt-12 grid gap-10 {{ if and $hasBody $hasSideContent }}xl:grid-cols-[minmax(0,1fr)_360px]{{ end }}">
+        {{ if $hasBody }}
+          <div class="surface-card p-0">
+            <div class="rich-text">
+              {{ .Content }}
+            </div>
+          </div>
+        {{ end }}
+
+        {{ if $hasSideContent }}
+          <div class="grid gap-8">
+            {{ with .Params.services }}
+              <section class="surface-card p-0">
+                <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#43A62A]">Leistungen</p>
+                <ul class="mt-5 space-y-3 text-sm leading-7 text-black/70">
+                  {{ range . }}
+                    <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </section>
+            {{ end }}
+
+            {{ with .Params.deliverables }}
+              <section class="surface-card p-0">
+                <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#A62A43]">Projektumfang</p>
+                <ul class="mt-5 space-y-3 text-sm leading-7 text-black/70">
+                  {{ range . }}
+                    <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </section>
+            {{ end }}
+          </div>
+        {{ end }}
         </div>
-      </div>
-
-      <div class="grid gap-8">
-        {{ with .Params.services }}
-          <section class="surface-card p-0">
-            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#43A62A]">Leistungen</p>
-            <ul class="mt-5 space-y-3 text-sm leading-7 text-black/70">
-              {{ range . }}
-                <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </section>
-        {{ end }}
-
-        {{ with .Params.deliverables }}
-          <section class="surface-card p-0">
-            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-[#A62A43]">Projektumfang</p>
-            <ul class="mt-5 space-y-3 text-sm leading-7 text-black/70">
-              {{ range . }}
-                <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </section>
-        {{ end }}
-      </div>
-    </div>
+    {{ end }}
   </section>
 {{ end }}
