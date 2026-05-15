@@ -6,6 +6,7 @@ summary = "Kurzbeschreibung des Projekts."
 year = ""
 location = ""
 sector = ""
+partners = []
 image = ""
 imageAlt = ""
 

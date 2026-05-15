@@ -5,6 +5,8 @@ weight: 6
 summary: "Integration einer Intelli-Hood-DCKV-Lösung in die gewerbliche Hotelküche des Mandarin Oriental Wien mit messbarer Senkung von Energieverbrauch, CO2-Ausstoß und Betriebskosten."
 location: "Wien"
 sector: "Hotellerie"
+partners:
+  - melink
 image: "images/projects/mandarin-oriental-hotel.jpg"
 imageAlt: "Restaurantbereich im Mandarin Oriental Hotel Wien"
 facts:

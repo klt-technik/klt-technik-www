@@ -15,10 +15,57 @@
       </div>
     {{ end }}
 
+    <div class="reference-filter mt-12" aria-label="Referenzen nach Partnertechnologie filtern">
+      <button class="reference-filter-button" type="button" data-reference-filter="jimco" aria-pressed="false">Jimco</button>
+      <button class="reference-filter-button" type="button" data-reference-filter="melink" aria-pressed="false">Melink</button>
+    </div>
+
     <div class="mt-12 grid gap-8 lg:grid-cols-3">
       {{ range .RegularPages.ByWeight }}
         {{ partial "project-card.html" . }}
       {{ end }}
     </div>
   </section>
+
+  <script>
+    (() => {
+      const filters = Array.from(document.querySelectorAll("[data-reference-filter]"));
+      const cards = Array.from(document.querySelectorAll("[data-reference-card]"));
+
+      if (filters.length === 0 || cards.length === 0) {
+        return;
+      }
+
+      const activePartners = new Set();
+
+      const syncReferences = () => {
+        filters.forEach((filter) => {
+          const isActive = activePartners.has(filter.dataset.referenceFilter);
+          filter.classList.toggle("is-active", isActive);
+          filter.setAttribute("aria-pressed", String(isActive));
+        });
+
+        cards.forEach((card) => {
+          const partners = (card.dataset.referencePartners || "").split(" ").filter(Boolean);
+          card.hidden = activePartners.size > 0 && !partners.some((partner) => activePartners.has(partner));
+        });
+      };
+
+      filters.forEach((filter) => {
+        filter.addEventListener("click", () => {
+          const nextPartner = filter.dataset.referenceFilter || "";
+
+          if (activePartners.has(nextPartner)) {
+            activePartners.delete(nextPartner);
+          } else {
+            activePartners.add(nextPartner);
+          }
+
+          syncReferences();
+        });
+      });
+
+      syncReferences();
+    })();
+  </script>
 {{ end }}
