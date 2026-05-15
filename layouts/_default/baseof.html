@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="{{ "css/global.css" | relURL }}">
   </head>
-  <body class="bg-white text-black antialiased">
+  <body class="text-black antialiased">
     <div class="site-shell flex min-h-screen flex-col">
       {{ partial "site-header.html" . }}
       <main class="flex-1">
@@ -25,7 +25,7 @@
         }
 
         const activeClasses = ["bg-[#43A62A]", "text-white"];
-        const inactiveClasses = ["text-black/70", "hover:bg-black/[0.04]", "hover:text-black"];
+        const inactiveClasses = ["text-white/75", "hover:bg-white/[0.08]", "hover:text-white"];
 
         const normalizePath = (pathname) => {
           if (!pathname || pathname === "") {

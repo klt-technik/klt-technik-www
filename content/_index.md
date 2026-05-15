@@ -1,16 +1,23 @@
 ---
 title: "Start"
-description: "KLT Technik plant und realisiert energiesparende Küchenlüftungstechnik für Großküchen mit klarem Fokus auf Funktion, Luftqualität und wirtschaftlichen Betrieb."
+description: "KLT Küchenlüftungstechnik plant, montiert und wartet leistungsfähige Küchenlüftungssysteme für professionelle Anwendungen."
 hero:
-  title: "Energiesparende Küchenlüftungstechnik mit klarer Umsetzung"
-  text: "Wir entwickeln Gesamtkonzepte für Großküchen-Belüftungssysteme, berechnen Luftmengen nach ÖNORM H6030 und begleiten Projekte bis zur fertigen Inbetriebnahme."
+  title: "KLT Küchenlüftungstechnik"
+  text: "Planung, Montage und Wartung aus einer Hand!"
+  tagline: "KLT Küchenlüftungstechnik - Planung, Montage und Wartung aus einer Hand!"
+  highlights:
+    - "Maßgeschneiderte individuelle Lösungen"
+    - "Architektonische, anspruchsvolle Gestaltung"
+    - "Modernste umweltfreundliche Lösungen"
+    - "Hochwertige Materialien und höchste Qualität"
+    - "Entwurf, Planung, Umsetzung und Service - alles aus einer Hand"
+  keywords:
+    - "ÖNORM EN 16282"
+    - "Flexibilität in Planung"
+    - "UV-C Anlagen"
 services:
   - title: "Gesamtkonzeption"
-    text: "Von der ersten Aufgabenstellung bis zur abgestimmten Ausführung entsteht ein Küchenlüftungssystem, das Technik, Betrieb und Einbausituation zusammenführt."
-  - title: "Luftmengenberechnung"
-    text: "Die Auslegung der Luftmengen erfolgt nach ÖNORM H6030 mit Fokus auf energie- und luftmengensparende Lösungen für wirtschaftlichen Dauerbetrieb."
-  - title: "Einreichung und Umsetzung"
-    text: "KLT Technik unterstützt bei Genehmigungs- und Einreichverfahren und sorgt für einen reibungslosen Ablauf von Fertigung, Montage und Inbetriebnahme."
+    text: "Entwicklung, Planung und Umsetzung leistungsfähiger Küchenlüftungssysteme für professionelle Anwendungen. Von der technischen Konzeption über die präzise integrierte Systemtechnik bis zur Inbetriebnahme entstehen abgestimmte Lösungen für optimale Luftführung, hohe Energieeffizienz und sicheren Betrieb. Wartung und Service gewährleisten langfristige Funktionalität, Hygiene und Betriebssicherheit der Anlagen."
 focus:
   - title: "Raumklima"
     text: "Ein sauberes, zugfreies Arbeitsklima verbessert die Bedingungen in der Großküche und unterstützt einen wirtschaftlichen Betrieb."
