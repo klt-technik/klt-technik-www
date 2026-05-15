@@ -456,16 +456,6 @@ h4 {
   }
 }
 
-@media (min-width: 769px) {
-  .header-partner-bar {
-    position: fixed;
-    top: 3.45rem;
-    right: 2.5rem;
-    width: auto;
-    z-index: 40;
-  }
-}
-
 @media (min-width: 1280px) {
   .header-actions {
     width: auto;
