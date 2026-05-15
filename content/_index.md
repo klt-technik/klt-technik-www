@@ -67,7 +67,7 @@ team:
     imageAlt: "Illustration fuer die Administration von KLT Technik"
     text: "Unterstützt Organisation, Dokumentation und die interne Koordination von Angeboten und Projekten."
 contact:
-  text: "Für Anfragen zu Großküchenlüftung, Produkten und individuellen Anlagenkonzepten steht KLT Technik gerne zur Verfügung."
+  text: "Für Anfragen zu Großküchenlüftung, technischen Lösungen und individuellen Anlagenkonzepten steht KLT-Küchenlüftungstechnik gerne zur Verfügung. Wir beraten Sie kompetent bei Planung, Umsetzung, Wartung und technischen Anforderungen moderner Küchenlüftungssysteme."
   company: "KLT Technik GmbH"
   address: "Kinskygasse 36-38, 1230 Wien"
   mapLabel: "Standort von KLT Technik GmbH in Wien"
