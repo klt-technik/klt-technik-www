@@ -75,6 +75,19 @@ contact:
   phoneHref: "tel:+4319139923"
   email: "office@klt-technik.com"
 ---
-Die Qualität des Raumklimas beeinflusst in jeder Großküche Arbeitskomfort, Energieverbrauch und Wirtschaftlichkeit. KLT Technik entwickelt deshalb Küchenlüftungssysteme, die Luftmengen gezielt reduzieren, Kochdünste sauber erfassen und sich verlässlich in den laufenden Betrieb integrieren lassen.
+Willkommen bei KLT-Küchenlüftungstechnik
 
-Im Mittelpunkt stehen hochwertige Lüftungskomponenten, moderne Fertigung und eine Auslegung, die Umweltstandards, Energieeffizienz und praktikable Montage zusammenbringt. Von der Konzeption über die Berechnung bis zur Umsetzung entsteht so eine Anlage, die technisch belastbar und im Alltag dauerhaft nutzbar ist.
+Ihr Partner für professionelle Küchenlüftungssysteme in Großküchen und gewerblichen Küchenbereichen.
+Von der Entwicklung über die Planung und Umsetzung bis hin zu Inbetriebnahme, Wartung und Service realisieren wir maßgeschneiderte Lüftungslösungen auf dem neuesten Stand der Technik.
+
+Präzise integrierte Systemtechnik, energieeffiziente Komponenten und optimierte Luftführung sorgen für wirtschaftlichen, sicheren und nachhaltigen Anlagenbetrieb. Dabei stehen Funktionalität, Hygiene, Betriebssicherheit und die individuellen Anforderungen unserer Kunden im Mittelpunkt.
+
+Seit vielen Jahren steht KLT-Küchenlüftungstechnik für zuverlässige und innovative Lösungen im Bereich gewerblicher Küchenlüftung. Unsere Leistungen umfassen die technische Planung, fachgerechte Montage sowie die langfristige Wartung moderner Lüftungssysteme für professionelle Küchenanwendungen.
+
+Unter der Leitung von DI Zuzana Strasser profitieren unsere Kunden von über 25 Jahren Erfahrung in der Küchenlüftungstechnik und der Umsetzung anspruchsvoller Projekte im gewerblichen Bereich. Fachkompetenz, technische Präzision und persönliche Beratung bilden dabei die Grundlage jeder Projektabwicklung.
+
+Wir arbeiten nach aktuellen technischen Standards und unter Berücksichtigung geltender Normen, insbesondere der ÖNORM EN 16282 und ÖNORM H6030. Hochwertige Materialien, moderne Fertigungsprozesse und präzise Ausführung gewährleisten langlebige und effiziente Systeme mit optimierter Luft- und Energiebilanz.
+
+Darüber hinaus begleiten wir unsere Kunden bei Genehmigungs- und Einreichverfahren und betreuen Projekte von der ersten Konzeption bis zur betriebsbereiten Übergabe.
+
+KLT – Technik, auf die Sie sich verlassen können. Qualität, die bleibt.
