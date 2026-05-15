@@ -89,6 +89,15 @@ h4 {
   width: 5.8rem;
 }
 
+.header-partner-logo-melink {
+  border-color: transparent;
+  background: transparent;
+}
+
+.partner-section {
+  scroll-margin-top: 9rem;
+}
+
 .home-hero-section {
   overflow: hidden;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
