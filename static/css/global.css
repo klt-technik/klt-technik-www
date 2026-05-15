@@ -94,9 +94,9 @@ h4 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.home-hero-carousel {
+.carousel-shell.home-hero-carousel {
   --carousel-gap: 0.75rem;
-  --carousel-slide-size: clamp(38rem, 68vw, 60rem);
+  --carousel-slide-size: clamp(26.4rem, 47.3vw, 42.9rem);
   padding-top: 0.75rem;
   background: var(--blue);
 }
@@ -246,6 +246,8 @@ h4 {
 }
 
 .home-hero-carousel .carousel-slide {
+  flex: 0 0 var(--carousel-slide-size);
+  width: var(--carousel-slide-size);
   aspect-ratio: 16 / 9;
   border: 0;
   background: #223a59;
@@ -367,6 +369,11 @@ h4 {
 
   .carousel-slide {
     flex-basis: 80vw;
+  }
+
+  .home-hero-carousel .carousel-slide {
+    flex-basis: var(--carousel-slide-size);
+    width: var(--carousel-slide-size);
   }
 }
 
