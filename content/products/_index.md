@@ -1,35 +1,241 @@
 ---
 title: "Produkte"
-description: "Ein Überblick über Küchenlüftungsdecken, Hauben, Luftführung und ergänzende Systembausteine für den wirtschaftlichen Betrieb von Großküchen."
+description: "Innovative Lösungen für effiziente Küchenlüftung: Lüftungsdecken, Hauben, Verdrängungsauslässe und Systemtechnik für professionelle Großküchen."
 products:
   - category: "Lüftungsdecken"
-    name: "Küchenlüftungsdecken mit effizienter Erfassung"
-    description: "Deckenlösungen für Großküchen mit zugfreiem Zuluftsystem, ästhetischer Integration und hochwirksamer Erfassung der Kochwolke."
-    image: "images/carousel-produkte.svg"
-    imageAlt: "Illustration einer Küchenlüftungsdecke für Großküchen"
-    applications:
-      - Produktions- und Spülküchen
-      - Neubau und Nachrüstung
-      - Bereiche mit hohen Anforderungen an Luftqualität
+    name: "KL - Küchenlüftungsdecke"
+    headline: "Effiziente Lüftung trifft modernes Design"
+    description:
+      - "Die Küchenlüftungsdecke KL wurde speziell für professionelle Großküchen mit hohen architektonischen Ansprüchen entwickelt. Sie lässt sich flexibel in unterschiedlichste Küchentypen integrieren und vereint modernes, flächenbündiges Design mit leistungsstarker Funktionalität."
+      - "Die KL-Decke kombiniert hochwertige Lufttechnik mit einem durchdachten, hygienischen Aufbau. Ihre modulare Ausführung erlaubt eine flexible Anpassung an individuelle Raumkonzepte."
+    pointsTitle: "Produkteigenschaften"
+    points:
+      - "Ästhetisch ansprechendes Design für offene und moderne Küchenkonzepte"
+      - "Zugfreies Zuluftsystem für maximalen Komfort am Arbeitsplatz"
+      - "Optional mit erfassungseffizienter Stützstrahltechnik zur Optimierung von Erfassung und Abluftführung"
+      - "Hochwirksame Fettabscheider für effiziente Luftreinigung"
+      - "Exzellente Erfassung der Koch- und Wärmelasten (Kochwolke)"
+      - "Besonders niedrige Betriebskosten durch optimierte Luftführung"
+      - "Integrierte LED-Beleuchtung mit VSG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+      - "Optional erhältlich mit Stützstrahltechnik für verbesserte Erfassung"
+      - "Erweiterbar mit UV-C-Abluftnachbehandlungsanlage zur Geruchs- und Partikelneutralisation"
+      - "Standardbeschichtung Passivdecke: RAL 9010 (weitere RAL- und NCS-Farben auf Wunsch möglich)"
+      - "Ausführung Aktivdecke in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Lüftungsdecken"
+    name: "KL-W - Küchenlüftungsdecke mit automatischer Reinigung"
+    headline: "Maximale Hygiene bei minimalem Wartungsaufwand"
+    description:
+      - "Die Küchenlüftungsdecke KL-W ist die Weiterentwicklung der bewährten KL-Decke mit einem integrierten Warmwasserspülsystem für die automatische Reinigung der Fettabscheider und Abluftkammern. Damit eignet sie sich ideal für stark frequentierte Großküchen mit höchsten Anforderungen an Hygiene und Effizienz."
+      - "Auch die KL-W bietet ein modernes Erscheinungsbild, ist leicht zu integrieren und trägt aktiv zur Verbesserung des Raumklimas sowie zur Einhaltung gesetzlicher Vorschriften bei."
+    pointsTitle: "Zusätzliche Vorteile zur KL-Decke"
+    points:
+      - "Warmwasserspülsystem reinigt Fettabscheider automatisch"
+      - "Deutlich reduzierte Reinigungs- und Wartungskosten"
+      - "Höchste Hygiene bei dauerhaft zuverlässiger Leistung"
+      - "Optional: Kombination mit UV-C-Abluftnachbehandlung und Stützstrahltechnik"
+      - "Integrierte LED-Beleuchtung mit VSG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+      - "Ausführung Aktivdecke in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
   - category: "Hauben"
-    name: "Stützstrahl- und Kondensationshauben"
-    description: "Hauben für Koch- und Spülbereiche mit effizienter Erfassung, hochwirksamen Fettabscheidern und Lösungen für Wasserdampfabscheidung bei Spülmaschinen."
-    image: "images/carousel-stahlbau.svg"
-    imageAlt: "Illustration einer Küchenlüftungshaube mit Luftführung"
-    applications:
-      - Kochlinien und Front-Cooking
-      - Geschirrspülmaschinen und Bandspülen
-      - Bereiche mit niedrigen Betriebskosten als Ziel
+    name: "FSZ - Stützstrahlhaube mit Quellluft"
+    headline: "Effizienz, Komfort und Design in einem kompakten System"
+    description:
+      - "Die Stützstrahlhaube FSZ ist eine innovative Lüftungslösung für moderne gewerbliche Küchen mit erhöhtem Anspruch an Energieeffizienz und Komfort. Durch die integrierte Capture-Stützstrahltechnik wird die Kochwolke effektiv an der Haubenkante abgeschirmt und zuverlässig erfasst - bei bis zu 45 % weniger Abluftvolumen im Vergleich zu konventionellen Hauben."
+      - "Ideal für alle Gastronomiebetriebe, die auf moderne, platzsparende und wirtschaftlich effiziente Lüftung setzen."
+    pointsTitle: "Hauptmerkmale"
+    points:
+      - "Stützstrahlaktivierte Front- und Seitenwände zur optimalen Erfassung der Kochwolke"
+      - "Zugfreies Zuluftsystem für ein angenehmes Arbeitsumfeld"
+      - "Hochwirksame Fettabscheider nach dem Zyklonprinzip"
+      - "Energieeinsparung durch Reduktion der Abluftvolumenströme"
+      - "Integrierte LED-Beleuchtung mit hitzebeständiger ESG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+      - "Optional mit automatischer Reinigungsfunktion"
+      - "Optional mit UV-C-Abluftnachbehandlungsanlage"
+      - "Ausführung Gehäuse in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Hauben"
+    name: "KFS - Küchenlüftungshaube mit Stützstrahltechnik"
+    headline: "Effiziente Erfassung der Kochwolke bei geringem Energieverbrauch"
+    description:
+      - "Die Capturehaube KFS nutzt stützstrahlaktivierte Seitenwände, um die Kochwolke besonders effektiv einzufangen. Durch diese innovative Technik wird der Abluftstrom im Vergleich zu herkömmlichen Hauben um bis zu 45 % reduziert, was zu erheblichen Energieeinsparungen führt."
+      - "Perfekt für gewerbliche Küchen, die Wert auf Nachhaltigkeit, Energieeffizienz und Komfort legen."
+    pointsTitle: "Highlights"
+    points:
+      - "Stützstrahlaktivierte Seitenwände für optimale Kochwolkenerfassung"
+      - "Zugfreies Zuluftsystem für hohen Komfort im Küchenbereich"
+      - "Hochwirksame Fettabscheider nach Zyklonprinzip"
+      - "Bis zu 45 % geringerer Abluftstrom im Vergleich zu konventionellen Hauben"
+      - "Integrierte LED-Beleuchtung mit hitzebeständiger ESG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+      - "Optional mit automatischer Reinigungsfunktion und UV-C-Abluftnachbehandlungsanlage"
+      - "Ausführung Gehäuse in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Hauben"
+    name: "KF - Ablufthaube mit Fettabscheider"
+    headline: "Klassisch, robust und einfach zu montieren"
+    description:
+      - "Die Ablufthaube KF überzeugt durch ihre klare, modulare Bauweise, die eine unkomplizierte Installation ermöglicht. Die Fettabscheidung erfolgt hochwirksam nach dem bewährten Zyklonprinzip, was für saubere Abluft und lange Wartungsintervalle sorgt."
+      - "Ideal für klassische Abluftanwendungen in gewerblichen Küchen, bei denen Funktionalität und Zuverlässigkeit im Vordergrund stehen."
+    pointsTitle: "Merkmale"
+    points:
+      - "Modulare Konstruktion für einfache und flexible Montage"
+      - "Hochleistungs-Fettabscheider mit bewährtem Zyklonprinzip"
+      - "Integrierte LED-Beleuchtung mit hitzebeständiger ESG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+      - "Zuverlässige und langlebige Standardlösung für Abluftsysteme"
+      - "Ausführung Gehäuse in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Hauben"
+    name: "KSK-D - Schwerpunktabsaugung"
+    headline: "Effiziente Lösung für Küchenbereiche mit geringer Emission"
+    description:
+      - "Die Schwerpunktabsaugung KSK-D ist speziell für Küchenbereiche ohne intensiven Kochbetrieb konzipiert, wie zum Beispiel Warmausgabegeräte. Sie wird direkt in die Küchenlüftungsdecke über diesen Geräten integriert und sorgt für die zuverlässige Beseitigung von Verunreinigungen sowie die Abscheidung von Fett und Kondensat."
+    pointsTitle: "Vorteile"
+    points:
+      - "Speziell für leichte Geräte mit geringer Emission"
+      - "Integrierbar in Küchenlüftungsdecken"
+      - "Hocheffizienter FC-Fettabscheider"
+      - "Klare und modulare Bauweise für einfache Montage"
+      - "Ausführung Gehäuse in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Hauben"
+    name: "KSK-CD - Schwerpunktabsaughaube"
+    headline: "Architektonisch ansprechende Lösung für leichte Geräte und niedrige Emissionen"
+    description:
+      - "Die Schwerpunktabsaughaube KSK-CD ist speziell für den deckenbündigen Einbau konzipiert und wird in die Küchenlüftungsdecke (KL) integriert, typischerweise oberhalb leichter Küchengeräte."
+      - "Das besondere Merkmal ist die verdeckte Anordnung der Fettabscheider, die sich hinter dem Frontpaneel befinden. Dadurch entsteht eine optisch saubere und ansprechende Deckenansicht, ohne sichtbare technische Elemente. Standardausführung in Chromnickelstahl 1.4301, K320 gebürstet. Beschichtung in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+    pointsTitle: "Highlights"
+    points:
+      - "Für Geräte mit geringer Emission, z. B. Warmausgabegeräte"
+      - "Flexible Einbaumöglichkeiten: Zwischendecke oder Sichtmontage"
+      - "Hocheffizienter FC-Fettabscheider"
+      - "Effektive Entfernung von Fett, Kondensat und Gerüchen"
+      - "Fettabscheider verdeckt installiert"
+      - "Ausführung Gehäuse in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Hauben"
+    name: "KSK-V - Filterabsaugeinheit"
+    headline: "Klassische Lösung für niedrige Emissionen"
+    description:
+      - "Die Schwerpunktabsaughaube KSK-V wird in der Küchenlüftungsdecke KL direkt oberhalb von leichten Küchengeräten wie Warmausgabegeräte oder Bainmaries angebracht und dient der Beseitigung von geringen Verunreinigungen, Gerüchen und Abwärme sowie der Abscheidung von Fett und Kondensat aus der Abluft."
+      - "Die KSK-V kann auch in bauseitigen Zwischendecken, für Kanaleinbau sowie als Filterauslass für Sichtmontagen ohne Zwischendecke verwendet werden."
+    pointsTitle: "Highlights"
+    points:
+      - "Für Geräte mit geringer Emission, z. B. Warmausgabegeräte"
+      - "Flexible Einbaumöglichkeiten: Zwischendecke oder Sichtmontage"
+      - "Hocheffizienter FC-Fettabscheider"
+      - "Effektive Entfernung von Fett, Kondensat und Gerüchen"
+      - "Standardausführung Einbaurahmen beschichtet in RAL 9010 (weitere RAL- und NCS-Farben auf Wunsch möglich)"
+  - category: "Hauben"
+    name: "KD - Haube für Spülküchen"
+    headline: "Spezialisiert auf die Abscheidung von Wasserdampf"
+    description:
+      - "Die Haube KD ist speziell für Geschirrspülmaschinen und andere Geräte entwickelt, bei denen die Abscheidung von Wasserdampf im Vordergrund steht. Sie fängt den Dampf zuverlässig ein, kondensiert ihn und führt ihn sicher ab. Mit ihrer großzügigen Innenform und einer Seitenspalte sorgt sie für eine effiziente Absaugung."
+    pointsTitle: "Wesentliche Merkmale"
+    points:
+      - "Speziell zur Wasserdampfabscheidung entwickelt"
+      - "Effektive Kondensation und Abführung von Wasserdampf"
+      - "Große Innenkapazität mit Seitenspalte für optimale Absaugung"
+      - "Integrierte LED-Beleuchtung mit hitzebeständiger ESG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+      - "Ausführung Gehäuse in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Hauben"
+    name: "KDZ - Haube für Spülküchen mit Zuluft"
+    headline: "Erweiterte Version der KD-Haube mit zusätzlichem Quellluftauslass in Haubenfront"
+    description:
+      - "Die Haube KDZ erweitert die Funktionalität der KD durch integrierte Stützstrahltechnik an Stirn- und Frontseiten. Diese sorgt für eine noch effektivere Erfassung der Koch- und Wasserdampfwolken. Zusätzlich sorgt das zugfreie Zuluftsystem für ein angenehmes Raumklima im Küchenbereich."
+    pointsTitle: "Besondere Eigenschaften"
+    points:
+      - "Stützstrahlaktivierte Stirn- und Frontseiten für optimale Erfassung"
+      - "Zugfreies Zuluftsystem für hohen Komfort"
+      - "Effiziente Kondensation und Abführung von Wasserdampf"
+      - "Integrierte LED-Beleuchtung mit hitzebeständiger ESG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+      - "Ausführung Gehäuse in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Hauben"
+    name: "WA - Wandabsaugung"
+    headline: "Direkte Erfassung der Kochwolke an der Wand"
+    description:
+      - "Die Wandabsaugung WA wird direkt an der Wand über den Kochgeräten montiert und sorgt für eine sofortige, effiziente Erfassung der Kochwolken. Dank der Multizyklon-Aerosolabscheider werden Fett und Verunreinigungen zuverlässig abgeschieden."
+    pointsTitle: "Vorteile"
+    points:
+      - "Einfache Wandmontage für unmittelbare Kochwolkenerfassung"
+      - "Sehr hoher Wirkungsgrad durch direkte Absaugung"
+      - "Hochwirksame Fettabscheidung mittels Multizyklon-Technologie"
+      - "Optional mit integrierter LED-Beleuchtung mit hitzebeständiger ESG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+  - category: "Hauben"
+    name: "WA-S - Wandabsaugung mit Stützstrahltechnik"
+    headline: "Maximale Effizienz durch innovative Strahltechnik"
+    description:
+      - "Die Wandabsaugung WA-S erweitert die klassische Wandabsaugung durch integrierte Stützstrahltechnik an der Haubenfrontkante. Diese verhindert, dass belastete Luft entweicht, und erhöht so den Erfassungswirkungsgrad zusätzlich. Perfekt für höchste Ansprüche an Luftqualität."
+    pointsTitle: "Highlights"
+    points:
+      - "Wandmontage mit direkter Kochwolkenerfassung"
+      - "Stützstrahltechnik verhindert Ausbreitung belasteter Luft"
+      - "Extrem hoher Erfassungswirkungsgrad durch Kombination von Absaugung und Capture-Technologie"
+      - "Multizyklon-Fettabscheider für optimale Reinigung"
+      - "Optional mit integrierter LED-Beleuchtung mit hitzebeständiger ESG-Sicherheitsglasabdeckung, strahlwassergeschützt"
+  - category: "Hauben"
+    name: "GA - Glasabsaugung"
+    headline: "Design trifft Funktion - perfekt für offene Küchen"
+    description:
+      - "Die Glasabsaugung GA ist ideal für Küchenbereiche, die Gästen zugewandt sind. Sie sorgt für ein offenes Raumgefühl und angenehme thermische sowie optische Behaglichkeit. Gleichzeitig fungiert sie als effektiver Hustenschutz für Personal und Gäste. Durch die direkte Absaugung über der Kochwolke erzielt sie hohe Wirkungsgrade."
+    pointsTitle: "Merkmale"
+    points:
+      - "Elegantes Design für offene Küchenkonzepte"
+      - "Offenes Raumgefühl bei gleichzeitigem Schutz vor Aerosolen"
+      - "Hohe Absaugeffizienz direkt über der Kochstelle"
+      - "Optional mit UV-C-Abluftnachbehandlung für geruchsfreie Luft"
+  - category: "Verdrängungsauslässe"
+    name: "QA - Quellluftauslass"
+    headline: "Komfortable und effiziente Frischluftzufuhr"
+    description:
+      - "Der Quellluftauslass QA sorgt für eine turbulenzfreie und komfortable Zuluftzufuhr im Küchenraum. Er verbessert spürbar Innenraumluftqualität und thermisches Wohlbefinden. Flexible Gestaltungsmöglichkeiten machen ihn zur idealen Ergänzung für jede Küchenlüftung."
+    pointsTitle: "Wesentliche Vorteile"
+    points:
+      - "Turbulenzfreie Frischluftzufuhr für angenehmes Raumklima"
+      - "Optimiert Abluftvolumenströme von Hauben und Lüftungsdecken"
+      - "Vielfältige Anpassungsmöglichkeiten für individuelle Anforderungen"
+      - "Steigert die Luftqualität und thermische Behaglichkeit deutlich"
+      - "Ausführung Gehäuse und Front in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
   - category: "Systemtechnik"
-    name: "Spülautomatik, Luftführung und Service"
-    description: "Ergänzende Komponenten wie Quellluftauslässe, Warmwasserspülanlagen, Direktanschlüsse, UVC-Unterstützung sowie Zubehör und Wartungsservice."
-    image: "images/carousel-service.svg"
-    imageAlt: "Illustration zu Service und ergänzender Systemtechnik für Küchenlüftung"
-    applications:
-      - Bedarfsgerechte Luftführung
-      - Reduzierte Reinigungs- und Servicekosten
-      - Laufender Betrieb und Instandhaltung
+    name: "Jimco UV-C-Abluftnachbehandlungsanlage"
+    headline: "Effiziente Reinigung der Küchenluft mit UV-C- und Ozontechnik"
+    description:
+      - "Unsere UV-C-Abluftnachbehandlungsanlage kombiniert UV-C-Strahlung mit Ozon, um Küchengerüche, kleinste Fettpartikel und organische Schadstoffe aus der Abluft effektiv zu neutralisieren. In Verbindung mit leistungsstarken Fettabscheidern sorgt die Anlage für besonders saubere Abluft bei niedrigen Reinigungskosten."
+    pointsTitle: "Vorteile"
+    points:
+      - "Hochwirksame Beseitigung von Gerüchen und Schadstoffen"
+      - "Kombiniert modernste UV-C- und Ozontechnologie"
+      - "Umwelttechnologie, ETV zertifiziert"
+      - "Niedrige Wartungs- und Reinigungskosten"
+      - "Individuell auf Ihre Küchenanlage abgestimmt"
+  - category: "Systemtechnik"
+    name: "Ozonanlage"
+    headline: "Geruchs- und Fettentfernung auf höchstem Niveau"
+    description:
+      - "Unsere Ozonanlagen nutzen kontinuierlich weiterentwickelte Ozontechnologie zur effektiven Entfernung von Gerüchen und Fett aus der Küchenabluft. Dank einfacher Nachrüstbarkeit passen sie ideal auch in bestehende Küchenanlagen und entsprechen den neuesten Normen."
+    pointsTitle: "Highlights"
+    points:
+      - "Effektive Neutralisation von Küchengerüchen und Fettpartikeln"
+      - "Modernste Ozontechnologie gemäß aktuellem Standard"
+      - "Problemlos in bestehende Systeme integrierbar"
+      - "Unterstützt die Einhaltung von Umwelt- und Hygieneanforderungen"
+  - category: "Systemtechnik"
+    name: "Feuerlöschanlage"
+    headline: "Maximaler Schutz durch moderne Feinsprühtechnik"
+    description:
+      - "Unsere Feuerlöschanlagen arbeiten mit Feinsprühlöschtechnik und bieten sowohl automatische als auch manuelle Auslösung. Das fein vernebelte Löschmittel benetzt die Brandflächen effektiv, erstickt das Feuer und minimiert die Gefahr von Rückzündungen - zertifiziert nach VdS."
+    pointsTitle: "Eigenschaften"
+    points:
+      - "Automatische und manuelle Auslösung möglich"
+      - "Feine Vernebelung des Löschmittels für maximale Wirkung"
+      - "Reduziert Rückzündungsrisiken durch Kühlung"
+      - "VdS-zertifizierte Sicherheit für Ihre Küche"
+  - category: "Systemtechnik"
+    name: "Bedarfsorientierte Luftmengenregelung Melink Intelli Hood"
+    headline: "Intelligente Luftsteuerung für Energieeffizienz"
+    description:
+      - "Mit der Luftmengenregelung IDM passt sich die Luftzufuhr dynamisch an den tatsächlichen Küchenbetrieb an. Spezielle Sensoren erkennen die Nutzung der Küchengeräte präzise, wodurch Energie gespart und hygienische Mindestluftmengen jederzeit sichergestellt werden."
+    pointsTitle: "Pluspunkte"
+    points:
+      - "Spart Energie durch bedarfsgerechte Luftsteuerung"
+      - "Patentierte Infrarotsensoren"
+      - "Ausgeführt gemäß EN, ANSI, ASHRAE und IES-Standard 90.1-2022"
+      - "Moderne Sensorik für exakte Erkennung der Gerätezustände"
+      - "Drei Betriebsarten für flexible Anpassung"
+      - "Garantiert hygienische Mindestluftversorgung"
 ---
-KLT Technik konzentriert sich auf Küchenlüftungstechnik, bei der Luftführung, Energieeinsatz und Wartungsaufwand zusammen gedacht werden. Die Produktwelt reicht von Küchenlüftungsdecken und Stützstrahlhauben bis zu Kondensationslösungen für Spülbereiche und ergänzender Systemtechnik.
+KLT-Küchenlüftungstechnik bietet ein umfassendes Sortiment moderner Lüftungssysteme und Zubehör, das auf die Anforderungen professioneller Großküchen zugeschnitten ist. Von Küchenlüftungsdecken über klassische Capture-Hauben bis zu Abluftnachbehandlung und Sicherheitssystemen sorgen die Produkte für optimale Luftqualität, Energieeffizienz und hohe Betriebssicherheit.
 
-Im Vordergrund stehen zugfreie Zuluft, eine wirksame Erfassung von Koch- und Dampffrachten, hochwertige Fettabscheider sowie Komponenten für wirtschaftliche Reinigung und verlässlichen Dauerbetrieb. Ergänzend dazu entstehen Auslegungen für Luftmengen, Einbausituationen und spätere Serviceanforderungen bereits in der Planungsphase.
+Mit bedarfsorientierter Luftmengenregelung, UV-C- und Ozontechnik sowie automatischen Reinigungssystemen entstehen Lösungen, die Nachhaltigkeit, Komfort und Wirtschaftlichkeit verbinden. Die Produkte lassen sich maßgeschneidert planen und in unterschiedliche Kücheneinrichtungen integrieren.
