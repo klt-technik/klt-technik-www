@@ -4,9 +4,9 @@
       <div class="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.35fr)] lg:items-start">
         <div>
           {{ with .Params.logo }}
-            <div class="inline-flex min-h-24 min-w-56 items-center justify-center rounded-[2px] px-6 py-5 {{ if eq $.Params.logoTheme "blue" }}bg-[#1a2e47]{{ else }}bg-white{{ end }}">
+            <div class="inline-flex min-h-28 min-w-72 items-center justify-center rounded-[2px] px-8 py-6 {{ if eq $.Params.logoTheme "blue" }}bg-[#1a2e47]{{ else }}bg-white{{ end }}">
               <img
-                class="max-h-16 max-w-48 object-contain"
+                class="max-h-20 max-w-64 object-contain"
                 src="{{ . | relURL }}"
                 alt="{{ $.Params.logoAlt | default $.Title }}"
                 loading="lazy"

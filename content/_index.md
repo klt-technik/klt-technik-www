@@ -11,13 +11,14 @@ hero:
     - "Modernste umweltfreundliche Lösungen"
     - "Hochwertige Materialien und höchste Qualität"
     - "Entwurf, Planung, Umsetzung und Service - alles aus einer Hand"
-  keywords:
     - "ÖNORM EN 16282"
+  keywords:
     - "Flexibilität in Planung"
-    - "UV-C Anlagen"
+    - "Ozonisierungsanlagen"
+    - "On Demand Regelung"
+    - "UVC-Entkeimung"
 services:
-  - title: "Gesamtkonzeption"
-    text: "Entwicklung, Planung und Umsetzung leistungsfähiger Küchenlüftungssysteme für professionelle Anwendungen. Von der technischen Konzeption über präzise integrierte Systemtechnik bis zur Inbetriebnahme entstehen abgestimmte Lösungen für optimale Luftführung, hohe Energieeffizienz und sicheren Betrieb. Wartung und Service gewährleisten langfristige Funktionalität, Hygiene und Betriebssicherheit der Anlagen."
+  - text: "Entwicklung, Planung und Umsetzung leistungsfähiger Küchenlüftungssysteme für professionelle Anwendungen. Von der technischen Konzeption über präzise integrierte Systemtechnik bis zur Inbetriebnahme entstehen abgestimmte Lösungen für optimale Luftführung, hohe Energieeffizienz und sicheren Betrieb. Wartung und Service gewährleisten langfristige Funktionalität, Hygiene und Betriebssicherheit der Anlagen."
 focus:
   - title: "Raumklima"
     text: "Ein sauberes, zugfreies Arbeitsklima verbessert die Bedingungen in der Großküche und unterstützt einen wirtschaftlichen Betrieb."

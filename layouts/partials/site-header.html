@@ -1,26 +1,26 @@
 <header class="sticky top-0 z-30 bg-[#1a2e47] text-white">
   <div class="site-header-inner mx-auto flex max-w-7xl flex-col gap-5 px-6 py-5 md:px-10 xl:flex-row xl:items-end xl:justify-between">
     <a class="flex items-center gap-4" href="{{ "/" | relURL }}">
-      <img class="h-20 w-auto md:h-28" src="{{ site.Params.logo | relURL }}" alt="{{ site.Params.companyName }} Logo">
+      <img class="h-24 w-auto md:h-32" src="{{ site.Params.logo | relURL }}" alt="{{ site.Params.companyName }} Logo">
     </a>
 
     <div class="header-actions flex flex-col gap-5 xl:items-end">
       <div class="header-partner-bar">
-        <span class="text-xs font-semibold uppercase tracking-[0.2em] text-white/70">UV-C Anlagen</span>
-        <span class="header-partner-logo-group">
-          <a href="{{ "/partners/jimco/" | relURL }}" aria-label="Zum Partner Jimco">
-            <img class="header-partner-logo header-partner-logo-jimco" src="{{ "images/partners/jimco-logo.svg" | relURL }}" alt="Jimco Logo">
-          </a>
-          <a href="{{ "/partners/melink/" | relURL }}" aria-label="Zum Partner Melink">
-            <img class="header-partner-logo header-partner-logo-melink" src="{{ "images/partners/melink-logo.png" | relURL }}" alt="Melink Logo">
-          </a>
-        </span>
+        <a class="header-partner-item" href="{{ "/partners/jimco/" | relURL }}" aria-label="Zum Partner Jimco">
+          <span class="header-partner-label">UV-C Anlagen</span>
+          <img class="header-partner-logo header-partner-logo-jimco" src="{{ "images/partners/jimco-logo.svg" | relURL }}" alt="Jimco Logo">
+        </a>
+        <a class="header-partner-item" href="{{ "/partners/melink/" | relURL }}" aria-label="Zum Partner Melink">
+          <span class="header-partner-label">On Demand Regelung</span>
+          <img class="header-partner-logo header-partner-logo-melink" src="{{ "images/partners/melink-logo.png" | relURL }}" alt="Melink Logo">
+        </a>
       </div>
 
       {{ $current := . }}
       <nav aria-label="Hauptnavigation" class="flex flex-wrap items-center gap-2 xl:justify-end">
         {{ range site.Menus.main }}
-          {{ $isActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (eq $current.RelPermalink .URL) }}
+          {{ $isHashLink := in .URL "#" }}
+          {{ $isActive := and (not $isHashLink) (or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (eq $current.RelPermalink .URL)) }}
           <a
             class="rounded-[2px] px-4 py-2 text-sm font-semibold transition {{ if $isActive }}bg-[#43A62A] text-white{{ else }}text-white/75 hover:bg-white/[0.08] hover:text-white{{ end }}"
             data-nav-link

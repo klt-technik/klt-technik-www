@@ -50,6 +50,7 @@ h4 {
 .site-header-inner {
   width: 100%;
   max-width: min(80rem, 100vw);
+  box-sizing: border-box;
 }
 
 .header-actions {
@@ -58,40 +59,52 @@ h4 {
 }
 
 .header-partner-bar {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: end;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   width: 100%;
 }
 
-.header-partner-logo-group {
-  display: flex;
-  flex: 0 0 auto;
+.header-partner-item {
+  display: grid;
+  grid-template-columns: 1fr;
   align-items: center;
-  gap: 0.5rem;
+  justify-items: start;
+  gap: 0.35rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-partner-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.25;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .header-partner-logo {
   display: block;
   box-sizing: border-box;
-  width: 5.2rem;
-  height: 1.85rem;
-  padding: 0.3rem 0.48rem;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 2px;
-  background: rgba(255, 255, 255, 0.94);
+  width: 8.9rem;
+  height: 3rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   object-fit: contain;
 }
 
 .header-partner-logo-jimco {
-  width: 5.8rem;
+  width: 9.6rem;
 }
 
 .header-partner-logo-melink {
-  border-color: transparent;
-  background: transparent;
+  width: 8.6rem;
 }
 
 .partner-section {
@@ -110,23 +123,42 @@ h4 {
   background: var(--blue);
 }
 
+.home-tagline-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: clamp(2.4rem, 6vw, 6.5rem);
+  row-gap: 1.35rem;
+}
+
 .home-highlight-pill,
 .home-keyword-pill {
   display: inline-flex;
   align-items: center;
-  min-height: 2.4rem;
-  padding: 0.55rem 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 2px;
-  background: rgba(255, 255, 255, 0.08);
-  color: rgba(255, 255, 255, 0.86);
-  font-size: 0.88rem;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: clamp(1.02rem, 1.5vw, 1.26rem);
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
 .home-description-section {
   background: var(--page-bg);
+}
+
+.home-about-section {
+  background:
+    linear-gradient(90deg, rgba(242, 244, 247, 0.97) 0%, rgba(242, 244, 247, 0.92) 52%, rgba(242, 244, 247, 0.86) 100%),
+    url("../images/archive/old-website-carousel/kitchen-ventilation-ceiling-glass-overhead.png") center / cover no-repeat;
+  color: var(--ink);
+}
+
+.about-focus-item {
+  padding: 0;
 }
 
 .surface-card-blue {
@@ -341,6 +373,12 @@ h4 {
   display: block;
 }
 
+.carousel-slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .rich-text {
   color: var(--ink);
   line-height: 1.85;
@@ -421,6 +459,12 @@ h4 {
   }
 }
 
+@media (max-width: 1180px) {
+  .header-partner-bar {
+    justify-content: start;
+  }
+}
+
 @media (max-width: 768px) {
   .surface-card {
     border-radius: 2px;
@@ -428,8 +472,17 @@ h4 {
 
   .header-partner-bar {
     position: static;
-    grid-template-columns: 1fr;
     justify-content: start;
+    align-items: flex-start;
+  }
+
+  .header-partner-logo {
+    width: 8rem;
+    height: 2.7rem;
+  }
+
+  .header-partner-logo-jimco {
+    width: 8.7rem;
   }
 
   .carousel-shell {
