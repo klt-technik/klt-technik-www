@@ -35,7 +35,7 @@
       <span class="transition">{{ .Title }}</span>
     </h3>
 
-    {{ with .Params.summary }}
+    {{ with (.Params.cardSummary | default .Params.summary) }}
       <p class="listing-card-body mt-4 flex-1 text-sm leading-7">{{ . }}</p>
     {{ end }}
 

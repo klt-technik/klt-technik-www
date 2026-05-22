@@ -3,9 +3,11 @@ title: "Med Uni Campus Graz"
 description: "Fallstudie zur energieeffizienten Großküchenlüftung an der Medizinischen Universität Graz."
 weight: 5
 summary: "Installation einer bedarfsgesteuerten Küchenlüftung mit Intelli-Hood an der Medizinischen Universität Graz und deutlicher Senkung von Energieverbrauch, CO2-Ausstoß und Betriebskosten."
+cardSummary: "Installation einer bedarfsgesteuerten Küchenlüftungsanlage mit Melink Intelli-Hood an der Medizinische Universität Graz zur nachhaltigen Optimierung des Küchenbetriebs. Durch die intelligente Regelung konnten Energieverbrauch, CO₂-Ausstoß und Betriebskosten deutlich reduziert werden."
 location: "Graz"
 sector: "Gebäudetechnik"
 partners:
+  - jimco
   - melink
 image: "images/projects/meduni-campus-graz-kueche.jpg"
 imageAlt: "Großküche der Medizinischen Universität Graz mit installierter Lüftungstechnik"

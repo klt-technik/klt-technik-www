@@ -2,10 +2,12 @@
 title: "Mandarin Oriental Hotel Wien"
 description: "Fallstudie zur bedarfsgesteuerten Küchenlüftung im Mandarin Oriental Hotel in Wien."
 weight: 6
-summary: "Integration einer Intelli-Hood-DCKV-Lösung in die gewerbliche Hotelküche des Mandarin Oriental Wien mit messbarer Senkung von Energieverbrauch, CO2-Ausstoß und Betriebskosten."
+summary: "Integration einer Melink Intelli-Hood DCKV-Lösung in die gewerbliche Hotelküche des Mandarin Oriental Wien. Durch die bedarfsgesteuerte Lüftungsregelung konnten Energieverbrauch, CO₂-Ausstoß und Betriebskosten messbar reduziert werden."
+cardSummary: "Integration einer Intelli-Hood-DCKV-Lösung in die gewerbliche Hotelküche des Mandarin Oriental Wien mit messbarer Senkung von Energieverbrauch, CO2-Ausstoß und Betriebskosten."
 location: "Wien"
 sector: "Hotellerie"
 partners:
+  - jimco
   - melink
 image: "images/projects/mandarin-oriental-hotel.jpg"
 imageAlt: "Restaurantbereich im Mandarin Oriental Hotel Wien"

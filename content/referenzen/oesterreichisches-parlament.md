@@ -7,6 +7,7 @@ location: "Wien"
 sector: "Referenz"
 partners:
   - jimco
+  - melink
 image: "images/projects/oesterreichisches-parlament.jpg"
 imageAlt: "Edelstahl-Küchenlüftungshauben im Österreichischen Parlament"
 ---
