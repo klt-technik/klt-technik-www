@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+    <link rel="icon" type="image/svg+xml" href="{{ site.Params.logo | relURL }}">
+    <link rel="shortcut icon" href="{{ site.Params.logo | relURL }}">
     {{ if .IsHome }}
       <link rel="preload" as="image" href="{{ "images/projects/meduni-campus-graz-kueche.jpg" | relURL }}" fetchpriority="high">
       <link rel="preload" as="image" href="{{ "images/projects/meduni-campus-graz-kueche-2.jpg" | relURL }}" fetchpriority="high">
