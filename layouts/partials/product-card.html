@@ -1,0 +1,46 @@
+{{ $product := . }}
+<article class="product-card surface-card listing-card-blue overflow-hidden p-0">
+  {{ with .image }}
+    <div class="listing-card-media product-card-media bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))]">
+      <img
+        class="h-full w-full object-cover"
+        src="{{ . | relURL }}"
+        alt="{{ $product.imageAlt | default $product.name }}"
+        loading="lazy"
+        decoding="async"
+      >
+    </div>
+  {{ else }}
+    <div class="product-placeholder listing-card-media product-card-media" aria-hidden="true">
+      <span>{{ $product.category }}</span>
+    </div>
+  {{ end }}
+
+  <div class="product-card-content">
+    <p class="listing-card-kicker text-sm font-semibold uppercase tracking-[0.28em]">{{ .category }}</p>
+    <h2 class="listing-card-title mt-4 text-2xl font-semibold md:text-3xl">{{ .name }}</h2>
+
+    {{ with .headline }}
+      <p class="product-card-headline mt-3">{{ . }}</p>
+    {{ end }}
+
+    {{ with .description }}
+      <div class="product-card-copy mt-6">
+        {{ range . }}
+          <p>{{ . }}</p>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ with .points }}
+      <div class="product-card-points mt-8">
+        <p class="listing-card-kicker text-xs font-semibold uppercase tracking-[0.28em]">{{ $product.pointsTitle | default "Merkmale" }}</p>
+        <ul class="product-feature-list listing-card-list mt-4">
+          {{ range . }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  </div>
+</article>

@@ -183,6 +183,89 @@ h4 {
   color: #ffffff;
 }
 
+.product-category {
+  scroll-margin-top: 9rem;
+}
+
+.product-category-intro {
+  display: grid;
+  gap: 1.5rem;
+  border-top: 1px solid rgba(26, 46, 71, 0.16);
+  padding-top: 2rem;
+}
+
+.product-category:first-child .product-category-intro {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.product-category-text {
+  max-width: 48rem;
+}
+
+.product-category-kicker {
+  color: var(--green);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.product-category-title {
+  margin-top: 0.65rem;
+  color: var(--ink);
+  font-size: 2rem;
+  line-height: 1.18;
+}
+
+.product-category-description {
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.product-category-use-cases {
+  border-left: 3px solid var(--green);
+  padding-left: 1.25rem;
+}
+
+.product-category-use-cases-title {
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.product-category-use-cases-list {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 0.95rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+
+.product-category-use-cases-list li {
+  position: relative;
+  padding-left: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.product-category-use-cases-list li::before {
+  content: "";
+  position: absolute;
+  top: 0.62em;
+  left: 0;
+  width: 0.36rem;
+  height: 0.36rem;
+  border-radius: 999px;
+  background: var(--green);
+}
+
 .product-card {
   display: grid;
   width: 100%;
@@ -194,7 +277,8 @@ h4 {
 }
 
 .product-card-media {
-  min-height: 12rem;
+  aspect-ratio: 1065 / 575;
+  min-height: 0;
 }
 
 .listing-card-media {
@@ -301,17 +385,10 @@ h4 {
 }
 
 @media (min-width: 768px) {
-  .product-card {
-    grid-template-columns: minmax(15rem, 20rem) 1fr;
-  }
-
-  .product-card-media {
-    min-height: 100%;
-  }
-
-  .product-placeholder {
-    border-right: 1px solid rgba(255, 255, 255, 0.08);
-    border-bottom: 0;
+  .product-category-intro {
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 24rem);
+    align-items: start;
+    gap: 3rem;
   }
 
   .product-card-content {
