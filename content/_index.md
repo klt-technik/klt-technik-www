@@ -10,9 +10,9 @@ hero:
     - "Architektonische, anspruchsvolle Gestaltung"
     - "Maßgeschneiderte individuelle Lösungen"
     - "Hochwertige Materialien und höchste Qualität"
+    - "Kompetente Beratung"
     - "ÖNORM EN 16282"
     - "ÖNORM H 6030"
-    - "Kompetente Beratung"
   keywords:
     - "Flexibilität in Planung"
     - "Ozonisierungsanlagen"
