@@ -119,6 +119,7 @@ h4 {
 .carousel-shell.home-hero-carousel {
   --carousel-gap: 0.75rem;
   --carousel-slide-size: clamp(26.4rem, 47.3vw, 42.9rem);
+  --carousel-duration: 60s;
   padding-top: 0.75rem;
   background: var(--blue);
 }
@@ -483,6 +484,7 @@ h4 {
   --carousel-gap: 1.5rem;
   --carousel-slide-size: clamp(18rem, 32vw, 27rem);
   --carousel-item-count: 5;
+  --carousel-duration: 34s;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -527,7 +529,15 @@ h4 {
   width: max-content;
   min-width: 100%;
   will-change: transform;
-  animation: carousel-scroll 34s linear infinite;
+  animation: carousel-scroll var(--carousel-duration) linear infinite;
+}
+
+.home-hero-carousel .carousel-track {
+  animation-play-state: paused;
+}
+
+.home-hero-carousel.is-ready .carousel-track {
+  animation-play-state: running;
 }
 
 .carousel-slide {
@@ -675,13 +685,14 @@ h4 {
     --carousel-slide-size: 80vw;
   }
 
-  .home-hero-carousel {
+  .carousel-shell.home-hero-carousel {
     --carousel-gap: 0.65rem;
     --carousel-slide-size: 98vw;
+    --carousel-duration: 52s;
   }
 
-  .carousel-track {
-    animation-duration: 26s;
+  .carousel-shell:not(.home-hero-carousel) {
+    --carousel-duration: 26s;
   }
 
   .carousel-slide {

@@ -6,7 +6,7 @@
   }}
 
   <section class="section-blue home-hero-section">
-    <div class="home-hero-carousel carousel-shell" style="--carousel-item-count: {{ len $carouselImages }};">
+    <div class="home-hero-carousel carousel-shell" data-home-carousel style="--carousel-item-count: {{ len $carouselImages }};">
       <div class="carousel-track">
         {{ range $pass := seq 2 }}
           {{ $isDuplicate := gt $pass 1 }}
@@ -17,7 +17,7 @@
                 src="{{ .src | relURL }}"
                 alt="{{ if $isDuplicate }}{{ else }}{{ .alt }}{{ end }}"
                 loading="eager"
-                decoding="sync"
+                decoding="async"
                 fetchpriority="high"
               >
             </figure>
@@ -40,6 +40,36 @@
       </div>
     </div>
   </section>
+
+  <script>
+    (() => {
+      const carousel = document.querySelector("[data-home-carousel]");
+
+      if (!carousel) {
+        return;
+      }
+
+      const waitForImage = (image) => {
+        const decodeImage = () => (
+          typeof image.decode === "function"
+            ? image.decode().catch(() => undefined)
+            : Promise.resolve()
+        );
+
+        if (image.complete) {
+          return decodeImage();
+        }
+
+        return new Promise((resolve) => {
+          image.addEventListener("load", resolve, { once: true });
+          image.addEventListener("error", resolve, { once: true });
+        }).then(decodeImage);
+      };
+
+      Promise.all(Array.from(carousel.querySelectorAll("img"), waitForImage))
+        .finally(() => carousel.classList.add("is-ready"));
+    })();
+  </script>
 
   {{ with .Params.services }}
     <section class="home-description-section py-12 md:py-16">
