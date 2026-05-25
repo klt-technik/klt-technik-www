@@ -23,10 +23,16 @@ services:
 focus:
   - title: "Raumklima"
     text: "Ein sauberes, zugfreies Arbeitsklima optimiert die lufttechnischen Bedingungen in der Großküche und unterstützt einen energieeffizienten sowie wirtschaftlichen Betrieb."
+    image: "images/projects/raumklima.jpg"
+    imageAlt: "Offene Großküche mit zentraler Ablufthaube und Servicebereich"
   - title: "Umweltstandards"
     text: "Zum Einsatz kommen hochwertige Komponenten und Systemkonzepte, die auf eine energieeffiziente Betriebsweise sowie die Einhaltung aktueller Umwelt- und Nachhaltigkeitsstandards ausgelegt sind und eine dauerhaft zuverlässige, wartungsarme Funktion gewährleisten."
+    image: "images/projects/umweltstandards.jpg"
+    imageAlt: "Küchenlüftungsdecke mit energieeffizienter Steuerungsanzeige"
   - title: "Projektablauf"
     text: "Langjährige Erfahrung in der Küchenlüftungstechnik, Fertigung und Kundenbetreuung gewährleistet strukturierte, normkonforme und verlässliche Projektabläufe bis zur betriebsfertigen Anlage."
+    image: "images/projects/projektablauf.jpg"
+    imageAlt: "Montage von Luftkanälen und technischer Anlageninstallation"
 team:
   - title: "Teammitglied 01"
     role: "Geschäftsführung"
