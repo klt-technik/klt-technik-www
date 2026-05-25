@@ -22,11 +22,11 @@ services:
   - text: "Entwicklung, Planung und Umsetzung leistungsfähiger Küchenlüftungssysteme für professionelle Anwendungen. Von der technischen Konzeption über präzise integrierte Systemtechnik bis zur Inbetriebnahme entstehen abgestimmte Lösungen für optimale Luftführung, hohe Energieeffizienz und sicheren Betrieb. Wartung und Service gewährleisten langfristige Funktionalität, Hygiene und Betriebssicherheit der Anlagen."
 focus:
   - title: "Raumklima"
-    text: "Ein sauberes, zugfreies Arbeitsklima verbessert die Bedingungen in der Großküche und unterstützt einen wirtschaftlichen Betrieb."
+    text: "Ein sauberes, zugfreies Arbeitsklima optimiert die lufttechnischen Bedingungen in der Großküche und unterstützt einen energieeffizienten sowie wirtschaftlichen Betrieb."
   - title: "Umweltstandards"
-    text: "Zum Einsatz kommen hochwertige Komponenten und Konzepte, die auf effiziente energetische Nutzung und langlebige Funktion ausgelegt sind."
+    text: "Zum Einsatz kommen hochwertige Komponenten und Systemkonzepte, die auf eine energieeffiziente Betriebsweise sowie die Einhaltung aktueller Umwelt- und Nachhaltigkeitsstandards ausgelegt sind und eine dauerhaft zuverlässige, wartungsarme Funktion gewährleisten."
   - title: "Projektablauf"
-    text: "Langjährige Erfahrung in Küchenlüftungstechnik, Fertigung und Kundenbetreuung schafft verlässliche Abläufe bis zur fertigen Anlage."
+    text: "Langjährige Erfahrung in der Küchenlüftungstechnik, Fertigung und Kundenbetreuung gewährleistet strukturierte, normkonforme und verlässliche Projektabläufe bis zur betriebsfertigen Anlage."
 team:
   - title: "Teammitglied 01"
     role: "Geschäftsführung"
