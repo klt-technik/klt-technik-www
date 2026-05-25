@@ -6,12 +6,13 @@ hero:
   text: "Planung, Montage und Wartung aus einer Hand!"
   tagline: "KLT Küchenlüftungstechnik - Planung, Montage und Wartung aus einer Hand!"
   highlights:
-    - "Maßgeschneiderte individuelle Lösungen"
-    - "Architektonische, anspruchsvolle Gestaltung"
     - "Modernste umweltfreundliche Lösungen"
+    - "Architektonische, anspruchsvolle Gestaltung"
+    - "Maßgeschneiderte individuelle Lösungen"
     - "Hochwertige Materialien und höchste Qualität"
-    - "Entwurf, Planung, Umsetzung und Service - alles aus einer Hand"
     - "ÖNORM EN 16282"
+    - "ÖNORM H 6030"
+    - "Kompetente Beratung"
   keywords:
     - "Flexibilität in Planung"
     - "Ozonisierungsanlagen"
