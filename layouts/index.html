@@ -122,14 +122,14 @@
         <p class="mt-4 text-lg text-black/70">Unser Team verbindet Planung, Konstruktion und Umsetzung in einem durchgängigen technischen Ablauf.</p>
       </div>
 
-      <div class="mt-12 grid gap-14 md:grid-cols-2 lg:grid-cols-4">
+      <div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
         {{ range . }}
           {{ $member := . }}
           <article class="surface-card overflow-hidden">
             {{ with $member.image }}
               <div class="bg-[linear-gradient(135deg,rgba(67,166,42,0.06),rgba(26,46,71,0.08))]">
                 <img
-                  class="h-64 w-full object-cover"
+                  class="h-48 w-full object-cover"
                   src="{{ . | relURL }}"
                   alt="{{ $member.imageAlt | default $member.title }}"
                   loading="lazy"
@@ -137,10 +137,21 @@
                 >
               </div>
             {{ end }}
-            <div class="pt-6">
-              <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#1a2e47]">{{ $member.role }}</p>
-              <h3 class="mt-4 text-2xl font-semibold text-black">{{ $member.title }}</h3>
-              <p class="mt-4 text-sm leading-7 text-black/70">{{ $member.text }}</p>
+            <div class="pt-5 pb-6">
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-[#1a2e47]">{{ $member.role }}</p>
+              <h3 class="mt-3 text-lg font-semibold text-black leading-snug">{{ $member.title }}</h3>
+              {{ with $member.phone }}
+                <a href="tel:{{ . | replaceRE `\s` `` }}" class="mt-4 flex items-center gap-2 text-sm text-black/70 hover:text-black transition-colors">
+                  <svg class="shrink-0 text-[#43A62A]" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.64 3.48 2 2 0 0 1 3.61 1.32h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+                  {{ . }}
+                </a>
+              {{ end }}
+              {{ with $member.email }}
+                <a href="mailto:{{ . }}" class="mt-2 flex items-start gap-2 text-sm text-black/70 hover:text-black transition-colors break-all">
+                  <svg class="mt-0.5 shrink-0 text-[#43A62A]" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                  {{ . }}
+                </a>
+              {{ end }}
             </div>
           </article>
         {{ end }}
