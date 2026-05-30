@@ -264,7 +264,9 @@ products:
       - "Standardausführung Front in Aluminium weiß beschichtet in RAL 9010, alternativ in Chromnickelstahl 1.4301, K320 gebürstet oder beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
   - category: "Systemtechnik"
     name: "Jimco UV-C-Abluftnachbehandlungsanlage"
-    image: "images/products/jimco-uvc-abluftnachbehandlung.jpg"
+    images:
+      - "images/products/jimco-uvc-abluftnachbehandlung-01.jpg"
+      - "images/products/jimco-uvc-abluftnachbehandlung-02.jpg"
     headline: "Effiziente Reinigung der Küchenluft mit UV-C- und Ozontechnik"
     description:
       - "Unsere UV-C-Abluftnachbehandlungsanlage kombiniert UV-C-Strahlung mit Ozon, um Küchengerüche, kleinste Fettpartikel und organische Schadstoffe aus der Abluft effektiv zu neutralisieren. In Verbindung mit leistungsstarken Fettabscheidern sorgt die Anlage für besonders saubere Abluft bei niedrigen Reinigungskosten."
@@ -277,7 +279,9 @@ products:
       - "Individuell auf Ihre Küchenanlage abgestimmt"
   - category: "Systemtechnik"
     name: "Ozonanlagen"
-    image: "images/products/ozonanlage.jpg"
+    images:
+      - "images/products/ozonanlage-01.jpg"
+      - "images/products/ozonanlage-02.jpg"
     headline: "Geruchs- und Fettentfernung auf höchstem Niveau"
     description:
       - "Unsere Ozonanlagen nutzen kontinuierlich weiterentwickelte Ozontechnologie zur effektiven Entfernung von Gerüchen und Fett aus der Küchenabluft. Dank einfacher Nachrüstbarkeit passen sie ideal auch in bestehende Küchenanlagen und entsprechen den neuesten Normen."
@@ -289,7 +293,9 @@ products:
       - "Unterstützt die Einhaltung von Umwelt- und Hygieneanforderungen"
   - category: "Systemtechnik"
     name: "Feuerlöschanlagen"
-    image: "images/products/feuerloeschanlage.jpg"
+    images:
+      - "images/products/feuerloeschanlage-01.jpg"
+      - "images/products/feuerloeschanlage-02.jpg"
     headline: "Maximaler Schutz durch moderne Feinsprühtechnik"
     description:
       - "Unsere Feuerlöschanlagen arbeiten mit Feinsprühlöschtechnik und bieten sowohl automatische als auch manuelle Auslösung. Das fein vernebelte Löschmittel benetzt die Brandflächen effektiv, erstickt das Feuer und minimiert die Gefahr von Rückzündungen - zertifiziert nach VdS."

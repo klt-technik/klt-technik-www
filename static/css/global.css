@@ -282,6 +282,16 @@ h4 {
   min-height: 0;
 }
 
+.product-card-media-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.product-card-media-gallery .product-card-media {
+  aspect-ratio: 4 / 3;
+}
+
 .listing-card-media {
   width: 100%;
   overflow: hidden;

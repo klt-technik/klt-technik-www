@@ -1,20 +1,37 @@
 {{ $product := . }}
 <article class="product-card surface-card listing-card-blue overflow-hidden p-0">
-  {{ with .image }}
-    {{ $image := strings.TrimPrefix "/" . }}
-    <div class="listing-card-media product-card-media bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))]">
-      <img
-        class="h-full w-full object-cover"
-        src="{{ $image | relURL }}"
-        alt="{{ $product.imageAlt | default $product.name }}"
-        loading="lazy"
-        decoding="async"
-      >
+  {{ with .images }}
+    <div class="product-card-media-gallery">
+      {{ range $idx, $img := . }}
+        {{ $image := strings.TrimPrefix "/" $img }}
+        <div class="listing-card-media product-card-media bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))]">
+          <img
+            class="h-full w-full object-cover"
+            src="{{ $image | relURL }}"
+            alt="{{ $product.imageAlt | default (printf "%s (%d)" $product.name (add $idx 1)) }}"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+      {{ end }}
     </div>
   {{ else }}
-    <div class="product-placeholder listing-card-media product-card-media" aria-hidden="true">
-      <span>{{ $product.category }}</span>
-    </div>
+    {{ with .image }}
+      {{ $image := strings.TrimPrefix "/" . }}
+      <div class="listing-card-media product-card-media bg-[linear-gradient(135deg,rgba(67,166,42,0.04),rgba(26,46,71,0.06))]">
+        <img
+          class="h-full w-full object-cover"
+          src="{{ $image | relURL }}"
+          alt="{{ $product.imageAlt | default $product.name }}"
+          loading="lazy"
+          decoding="async"
+        >
+      </div>
+    {{ else }}
+      <div class="product-placeholder listing-card-media product-card-media" aria-hidden="true">
+        <span>{{ $product.category }}</span>
+      </div>
+    {{ end }}
   {{ end }}
 
   <div class="product-card-content">
