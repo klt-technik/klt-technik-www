@@ -26,12 +26,12 @@ productCategories:
       - "Geschirrspülmaschinen und Bandspülen"
       - "Bereiche mit niedrigen Betriebskosten als Ziel"
   - title: "Systemtechnik"
-    headline: "Bedarfsorientierte Regelung der Luftströme"
+    headline: "Küchenabluftnachbehandlung, Regelung der Luftströme und Feuerlöschanlagen"
     description: "Küchenlöschanlagen, UV-C- und Ozon-Nachbehandlung von Küchenabluft."
     useCases:
       - "Bedarfsgerechte Luftführung"
       - "Reduzierte Reinigungs- und Servicekosten"
-      - "Laufender Betrieb und Instandhaltung"
+      - "Brandschutztechnik"
 products:
   - category: "Lüftungsdecken"
     name: "KL - Küchenlüftungsdecke"
@@ -233,6 +233,35 @@ products:
       - "Vielfältige Anpassungsmöglichkeiten für individuelle Anforderungen"
       - "Steigert die Luftqualität und thermische Behaglichkeit deutlich"
       - "Ausführung Gehäuse und Front in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Verdrängungsauslässe"
+    name: "KLH - Laminar Flow System"
+    image: "images/products/qa-quellluftauslass.jpg"
+    headline: "Komfortable und effiziente Frischluftzufuhr"
+    description:
+      - "Deckenintegrierter linearer Verdrängungsauslass in modularer Bauweise. Der KLH Deckenquellluftauslass wurde speziell als Zuluftvorhang zwischen Bereich der Wärmelast und Speisesaal in Schauküchen und Essensausgaben entwickelt – für optisch anspruchsvolle Lösungen."
+      - "Er sorgt für turbulenzfreie Einbringung der Zuluft in den Raum, gewährleistet dadurch die Effizienz der Küchenlüftung und verbessert die Luftqualität in gewerblichen Küchen. Standardmäßig weiß beschichtet in RAL 9010, optional in Chromnickelstahl 1.4301 oder beschichtet in RAL/NCS nach Wahl."
+    pointsTitle: "Wesentliche Vorteile"
+    points:
+      - "Zugfreie Frischluftzufuhr für angenehmes Raumklima"
+      - "Architektonisch hochwertige Integration in moderne Deckensysteme"
+      - "Optimiert Abluftvolumenströme von Hauben und Lüftungsdecken"
+      - "Vielfältige Anpassungsmöglichkeiten für individuelle Anforderungen"
+      - "Steigert die Luftqualität und thermische Behaglichkeit deutlich"
+      - "Ausführung Gehäuse und Front in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
+  - category: "Verdrängungsauslässe"
+    name: "KLQ - Verdrängungsauslass für Küchenlüftungsdecken"
+    image: "images/products/qa-quellluftauslass.jpg"
+    headline: "Komfortable und effiziente Frischluftzufuhr"
+    description:
+      - "Verdrängungsauslass für Küchenlüftungsdecken KLT sowie für den Einbau in bauseitige Deckensysteme. Der KL-Q Deckenquellluftauslass sorgt für eine turbulenzfreie Einbringung der Zuluft in den Raum – zur Gewährleistung der Effizienz der Küchenlüftung und Verbesserung der Luftqualität in gewerblichen Küchen."
+      - "Deckenquellluftauslässe KL-Q sind eine modulare Lösung zur Zuluftführung in gewerblichen Küchen. Die Zuluft wird zugfrei mit geringer Geschwindigkeit in die Küchenrandbereiche oder zwischen die Küchengeräte oberhalb der Küchenmitarbeiter geleitet."
+    pointsTitle: "Wesentliche Vorteile"
+    points:
+      - "Zugfreie Frischluftzufuhr für angenehmes Raumklima"
+      - "Optimiert Abluftvolumenströme von Hauben und Lüftungsdecken"
+      - "Steigert die Luftqualität und thermische Behaglichkeit deutlich"
+      - "Standardausführung Gehäuse in Stahlblech verzinkt, alternativ in Chromnickelstahl 1.4301"
+      - "Standardausführung Front in Aluminium weiß beschichtet in RAL 9010, alternativ in Chromnickelstahl 1.4301, K320 gebürstet oder beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
   - category: "Systemtechnik"
     name: "Jimco UV-C-Abluftnachbehandlungsanlage"
     image: "images/products/jimco-uvc-abluftnachbehandlung.jpg"
@@ -247,7 +276,7 @@ products:
       - "Niedrige Wartungs- und Reinigungskosten"
       - "Individuell auf Ihre Küchenanlage abgestimmt"
   - category: "Systemtechnik"
-    name: "Ozonanlage"
+    name: "Ozonanlagen"
     image: "images/products/ozonanlage.jpg"
     headline: "Geruchs- und Fettentfernung auf höchstem Niveau"
     description:
@@ -259,7 +288,7 @@ products:
       - "Problemlos in bestehende Systeme integrierbar"
       - "Unterstützt die Einhaltung von Umwelt- und Hygieneanforderungen"
   - category: "Systemtechnik"
-    name: "Feuerlöschanlage"
+    name: "Feuerlöschanlagen"
     image: "images/products/feuerloeschanlage.jpg"
     headline: "Maximaler Schutz durch moderne Feinsprühtechnik"
     description:
@@ -275,7 +304,7 @@ products:
     image: "images/products/melink-intelli-hood.jpg"
     headline: "Intelligente Luftsteuerung für Energieeffizienz"
     description:
-      - "Mit der Luftmengenregelung IDM passt sich die Luftzufuhr dynamisch an den tatsächlichen Küchenbetrieb an. Spezielle Sensoren erkennen die Nutzung der Küchengeräte präzise, wodurch Energie gespart und hygienische Mindestluftmengen jederzeit sichergestellt werden."
+      - "Mit der Luftmengenregelung Intelli Hood passt sich die Luftzufuhr dynamisch an den tatsächlichen Küchenbetrieb an. Spezielle Sensoren erkennen die Nutzung der Küchengeräte präzise, wodurch Energie gespart und hygienische Mindestluftmengen jederzeit sichergestellt werden."
     pointsTitle: "Pluspunkte"
     points:
       - "Spart Energie durch bedarfsgerechte Luftsteuerung"
