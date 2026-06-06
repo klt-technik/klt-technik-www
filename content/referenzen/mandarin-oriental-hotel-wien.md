@@ -6,7 +6,7 @@ summary: "Integration einer Melink Intelli-Hood DCKV-Lösung in die gewerbliche 
 cardSummary: |-
   Integration einer Intelli-Hood-DCKV-Lösung in die
   gewerbliche Hotelküche des Mandarin Oriental Wien:
-  Messbarer Senkung des Energieverbrauches, CO2-Ausstoßes und der Betriebskosten
+  Messbarer Senkung des Energieverbrauches, CO₂-Ausstoßes und der Betriebskosten
 location: "Wien"
 sector: "Hotellerie"
 partners:
