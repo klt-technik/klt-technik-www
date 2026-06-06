@@ -235,7 +235,7 @@ products:
       - "Ausführung Gehäuse und Front in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
   - category: "Verdrängungsauslässe"
     name: "KLH - Laminar Flow System"
-    image: "images/products/qa-quellluftauslass.jpg"
+    image: "images/products/klh-laminar-flow-system.jpg"
     headline: "Komfortable und effiziente Frischluftzufuhr"
     description:
       - "Deckenintegrierter linearer Verdrängungsauslass in modularer Bauweise. Der KLH Deckenquellluftauslass wurde speziell als Zuluftvorhang zwischen Bereich der Wärmelast und Speisesaal in Schauküchen und Essensausgaben entwickelt – für optisch anspruchsvolle Lösungen."
