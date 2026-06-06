@@ -15,9 +15,8 @@ hero:
     - "ÖNORM H 6030"
   keywords:
     - "Flexibilität in Planung"
-    - "Ozonisierungsanlagen"
+    - "UVC-Abluftreinigung"
     - "On Demand Regelung"
-    - "UVC-Entkeimung"
 services:
   - text: "Entwicklung, Planung und Umsetzung leistungsfähiger Küchenlüftungssysteme für professionelle Anwendungen. Von der technischen Konzeption über präzise integrierte Systemtechnik bis zur Inbetriebnahme entstehen abgestimmte Lösungen für optimale Luftführung, hohe Energieeffizienz und sicheren Betrieb. Wartung und Service gewährleisten langfristige Funktionalität, Hygiene und Betriebssicherheit der Anlagen."
 focus:
