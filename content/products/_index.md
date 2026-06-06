@@ -250,7 +250,7 @@ products:
       - "Ausführung Gehäuse und Front in Chromnickelstahl 1.4301, K320 gebürstet, optional beschichtet in jedem gewünschten RAL- bzw. NCS-Farbton, auf Kundenwunsch, kurzfristig lieferbar."
   - category: "Verdrängungsauslässe"
     name: "KLQ - Verdrängungsauslass für Küchenlüftungsdecken"
-    image: "images/products/qa-quellluftauslass.jpg"
+    image: "images/products/klq-verdraengungsauslass-kuechenlueftungsdecken.jpg"
     headline: "Komfortable und effiziente Frischluftzufuhr"
     description:
       - "Verdrängungsauslass für Küchenlüftungsdecken KLT sowie für den Einbau in bauseitige Deckensysteme. Der KL-Q Deckenquellluftauslass sorgt für eine turbulenzfreie Einbringung der Zuluft in den Raum – zur Gewährleistung der Effizienz der Küchenlüftung und Verbesserung der Luftqualität in gewerblichen Küchen."
