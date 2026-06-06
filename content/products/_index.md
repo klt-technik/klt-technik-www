@@ -197,7 +197,9 @@ products:
       - "Optional mit integrierter LED-Beleuchtung mit hitzebeständiger ESG-Sicherheitsglasabdeckung, strahlwassergeschützt"
   - category: "Hauben"
     name: "WA-S - Wandabsaugung mit Stützstrahltechnik"
-    image: "images/products/wa-s-wandabsaugung-stuetzstrahltechnik.jpg"
+    images:
+      - "images/products/wa-s-wandabsaugung-stuetzstrahltechnik-01.jpg"
+      - "images/products/wa-s-wandabsaugung-stuetzstrahltechnik-02.jpg"
     headline: "Maximale Effizienz durch innovative Strahltechnik"
     description:
       - "Die Wandabsaugung WA-S erweitert die klassische Wandabsaugung durch integrierte Stützstrahltechnik an der Haubenfrontkante. Diese verhindert, dass belastete Luft entweicht, und erhöht so den Erfassungswirkungsgrad zusätzlich. Perfekt für höchste Ansprüche an Luftqualität."
