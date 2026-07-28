@@ -1,4 +1,4 @@
-baseURL = "https://www.klt-technik.at/"
+baseURL = "https://www.klt-technik.com/"
 languageCode = "de-AT"
 title = "KLT Technik"
 disableKinds = ["taxonomy", "term"]

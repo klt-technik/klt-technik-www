@@ -32,6 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.160.1
+      SITE_URL: https://www.klt-technik.com/
     steps:
       - name: Install Hugo CLI
         run: |
@@ -53,7 +54,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${SITE_URL}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
