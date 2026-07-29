@@ -35,7 +35,13 @@
           {{ with .Params.product }}
             <div>
               <h2 class="text-xl font-semibold text-white">Produkte und Technologie</h2>
-              <p class="mt-3 text-sm leading-7 text-white/75">{{ . }}</p>
+              {{ if reflect.IsSlice . }}
+                {{ range . }}
+                  <p class="mt-3 text-sm leading-7 text-white/75">{{ . }}</p>
+                {{ end }}
+              {{ else }}
+                <p class="mt-3 text-sm leading-7 text-white/75">{{ . }}</p>
+              {{ end }}
             </div>
           {{ end }}
 
